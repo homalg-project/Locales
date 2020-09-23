@@ -1,0 +1,37 @@
+  
+  [1X3 [33X[0;0YLattices[133X[101X
+  
+  [33X[0;0YLattices are finite complete, finite cocomplete, skeletal, thin categories.[133X
+  
+  
+  [1X3.1 [33X[0;0YAttributes[133X[101X
+  
+  [1X3.1-1 Factors[101X
+  
+  [33X[1;0Y[29X[2XFactors[102X( [3XA[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list[133X
+  
+  [33X[0;0YCompute  the  [21Xfactors[121X  of [3XA[103X. This is a list [3XC[103X with the minimum specification
+  that [10XDirectProduct[110X([10XL[110X)=[3XA[103X.[133X
+  
+  [1X3.1-2 FactorsAttr[101X
+  
+  [33X[1;0Y[29X[2XFactorsAttr[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  
+  [1X3.2 [33X[0;0YOperations[133X[101X
+  
+  [1X3.2-1 \*[101X
+  
+  [33X[1;0Y[29X[2X\*[102X( [3XA[103X, [3XB[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Yan object in a meet semilattice[133X
+  
+  [33X[0;0YThe meet [10XDirectProduct[110X([3XA[103X, [3XB[103X) of [3XA[103X and [3XB[103X.[133X
+  
+  [1X3.2-2 \+[101X
+  
+  [33X[1;0Y[29X[2X\+[102X( [3XA[103X, [3XB[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Yan object in a join semilattice[133X
+  
+  [33X[0;0YThe join [10XCoproduct[110X([3XA[103X, [3XB[103X) of [3XA[103X and [3XB[103X.[133X
+  
