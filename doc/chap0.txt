@@ -7,10 +7,10 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2020.07.01
+                                   2020.07.03
   
   
-                                  1 July 2020
+                                  3 July 2020
   
   
                                 Mohamed Barakat
@@ -30,8 +30,8 @@
   
   
   Markus Lange-Hegermann
-      Email:    [7Xmailto:markus.lange-hegermann@hs-owl.de[107X
-      Homepage: [7Xhttps://www.hs-owl.de/fb5/fachbereich/fachgebiete/md/team/prof-dr-markus-lange-hegermann.html[107X
+      Email:    [7Xmailto:markus.lange-hegermann@th-owl.de[107X
+      Homepage: [7Xhttps://www.th-owl.de/eecs/fachbereich/team/markus-lange-hegermann/[107X
       Address:  [33X[0;14YMarkus Lange-Hegermann[133X
                 [33X[0;14YHochschule Ostwestfalen-Lippe[133X
                 [33X[0;14YLiebigstraße 87[133X
