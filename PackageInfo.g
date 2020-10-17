@@ -1,4 +1,4 @@
-#
+# SPDX-License-Identifier: GPL-2.0-or-later
 # Locales: Locales, frames, coframes, meet semi-lattices of locally closed subsets, and Boolean algebras of constructible sets
 #
 # This file contains package meta data. For additional information on
@@ -12,13 +12,13 @@ SetPackageInfo( rec(
 PackageName := "Locales",
 Subtitle := "Locales, frames, coframes, meet semi-lattices of locally closed subsets, and Boolean algebras of constructible sets",
 Version := Maximum( [
-                   "2020.09.10", ## Mohamed's version
+                   "2020.10-02", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2019.03.17", ## Tom's version
                    ] ),
 
-Date := ~.Version{[ 1 .. 10 ]},
-Date := Concatenation( ~.Version{[ 9, 10 ]}, "/", ~.Version{[ 6, 7 ]}, "/", ~.Version{[ 1 .. 4 ]} ),
+Date := "17/10/2020",
+Date := "17/10/2020",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -80,7 +80,7 @@ README_URL      := "https://homalg-project.github.io/Locales/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/Locales/releases/download/v", ~.Version, "/Locales-", ~.Version ),
 # END URLS
 
-ArchiveFormats := ".tar.gz",
+ArchiveFormats := ".tar.gz .zip",
 
 ##  Status information. Currently the following cases are recognized:
 ##    "accepted"      for successfully refereed packages
@@ -109,7 +109,7 @@ Dependencies := rec(
                    [ "GAPDoc", ">= 1.5" ],
                    [ "ToolsForHomalg", ">= 2020.09.06" ],
                    [ "CAP", ">= 2019.10.29" ],
-                   [ "CategoryConstructor", ">= 2020.09.10" ],
+                   [ "CategoryConstructor", ">= 2020.10-02" ],
                    [ "MonoidalCategories", ">= 2020.03.01" ],
                    [ "Toposes", ">= 2020.06.05" ],
                    [ "Digraphs", ">= 0.12.1" ],

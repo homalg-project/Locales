@@ -324,7 +324,7 @@
   [1X6.5-2 [33X[0;0YPoset of category[133X[101X
   
   [4X[32X  Example  [32X[104X
-    [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.04.16" );[127X[104X
+    [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.10-02" );[127X[104X
     [4X[28Xtrue[128X[104X
     [4X[25Xgap>[125X [27XQ := HomalgFieldOfRationalsInSingular( );[127X[104X
     [4X[28XQ[128X[104X
@@ -390,7 +390,7 @@
   [1X6.5-3 [33X[0;0YStable poset of category[133X[101X
   
   [4X[32X  Example  [32X[104X
-    [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.05.18" );[127X[104X
+    [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.10-02" );[127X[104X
     [4X[28Xtrue[128X[104X
     [4X[25Xgap>[125X [27XQ := HomalgFieldOfRationalsInSingular( );[127X[104X
     [4X[28XQ[128X[104X
