@@ -456,16 +456,16 @@ true
 Q
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">R := Q["x,y"];</span>
 Q[x,y]
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">P := CategoryOfRows( R );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">F := CategoryOfRows( R );</span>
 Rows( Q[x,y] )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">S := SliceCategoryOverTensorUnit( P );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">S := SliceCategoryOverTensorUnit( F );</span>
 SliceCategoryOverTensorUnit( Rows( Q[x,y] ) )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">L := PosetOfCategory( S );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">P := PosetOfCategory( S );</span>
 Poset( SliceCategoryOverTensorUnit( Rows( Q[x,y] ) ) )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">I := HomalgMatrix( "[ x ]", 1, 1, R ) / P / S / L;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">I := HomalgMatrix( "[ x ]", 1, 1, R ) / F / S / P;</span>
 An object in the poset given by: An object in the slice category given by:
 &lt;A morphism in Rows( Q[x,y] )&gt;
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">J := HomalgMatrix( "[ x, y ]", 2, 1, R ) / P / S / L;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">J := HomalgMatrix( "[ x, y ]", 2, 1, R ) / F / S / P;</span>
 An object in the poset given by: An object in the slice category given by:
 &lt;A morphism in Rows( Q[x,y] )&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IJ := TensorProduct( I, J );</span>
@@ -515,6 +515,52 @@ true
 <p><a id="X7C1992657C3EAEDF" name="X7C1992657C3EAEDF"></a></p>
 
 <h5>6.5-3 <span class="Heading">Stable poset of category</span></h5>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "SubcategoriesForCAP", "&gt;= 2020.10-02" );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Q := HomalgFieldOfRationalsInSingular( );</span>
+Q
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">R := Q["x"] / "x^2";</span>
+Q[x]/( x^2 )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">F := CategoryOfRows( R );</span>
+Rows( Q[x]/( x^2 ) )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">S := SliceCategoryOverTensorUnit( F );</span>
+SliceCategoryOverTensorUnit( Rows( Q[x]/( x^2 ) ) )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">P := PosetOfCategory( S );</span>
+Poset( SliceCategoryOverTensorUnit( Rows( Q[x]/( x^2 ) ) ) )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">L := StablePosetOfCategory( P );</span>
+StablePoset( Poset( SliceCategoryOverTensorUnit( Rows( Q[x]/( x^2 ) ) ) ) )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">N := HomalgMatrix( "[ x ]", 1, 1, R ) / F / S / P;</span>
+An object in the poset given by:
+An object in the slice category given by: &lt;A morphism in Rows( Q[x]/( x^2 ) )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">I := InitialObject( P );</span>
+An object in the poset given by:
+An object in the slice category given by:
+&lt;A zero, split monomorphism in Rows( Q[x]/( x^2 ) )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">I = N;</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsInitial( I );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsInitial( N );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rN := N / L;</span>
+An object in the stable poset given by:
+An object in the poset given by:
+An object in the slice category given by: &lt;A morphism in Rows( Q[x]/( x^2 ) )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rI := I / L;</span>
+An object in the stable poset given by:
+An object in the poset given by:
+An object in the slice category given by:
+&lt;A zero, split monomorphism in Rows( Q[x]/( x^2 ) )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rI = rN;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsInitial( rI );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsInitial( rN );</span>
+true
+</pre></div>
 
 
 <div class="example"><pre>

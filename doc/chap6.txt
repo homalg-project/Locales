@@ -330,16 +330,16 @@
     [4X[28XQ[128X[104X
     [4X[25Xgap>[125X [27XR := Q["x,y"];[127X[104X
     [4X[28XQ[x,y][128X[104X
-    [4X[25Xgap>[125X [27XP := CategoryOfRows( R );[127X[104X
+    [4X[25Xgap>[125X [27XF := CategoryOfRows( R );[127X[104X
     [4X[28XRows( Q[x,y] )[128X[104X
-    [4X[25Xgap>[125X [27XS := SliceCategoryOverTensorUnit( P );[127X[104X
+    [4X[25Xgap>[125X [27XS := SliceCategoryOverTensorUnit( F );[127X[104X
     [4X[28XSliceCategoryOverTensorUnit( Rows( Q[x,y] ) )[128X[104X
-    [4X[25Xgap>[125X [27XL := PosetOfCategory( S );[127X[104X
+    [4X[25Xgap>[125X [27XP := PosetOfCategory( S );[127X[104X
     [4X[28XPoset( SliceCategoryOverTensorUnit( Rows( Q[x,y] ) ) )[128X[104X
-    [4X[25Xgap>[125X [27XI := HomalgMatrix( "[ x ]", 1, 1, R ) / P / S / L;[127X[104X
+    [4X[25Xgap>[125X [27XI := HomalgMatrix( "[ x ]", 1, 1, R ) / F / S / P;[127X[104X
     [4X[28XAn object in the poset given by: An object in the slice category given by:[128X[104X
     [4X[28X<A morphism in Rows( Q[x,y] )>[128X[104X
-    [4X[25Xgap>[125X [27XJ := HomalgMatrix( "[ x, y ]", 2, 1, R ) / P / S / L;[127X[104X
+    [4X[25Xgap>[125X [27XJ := HomalgMatrix( "[ x, y ]", 2, 1, R ) / F / S / P;[127X[104X
     [4X[28XAn object in the poset given by: An object in the slice category given by:[128X[104X
     [4X[28X<A morphism in Rows( Q[x,y] )>[128X[104X
     [4X[25Xgap>[125X [27XIJ := TensorProduct( I, J );[127X[104X
@@ -388,6 +388,51 @@
   
   
   [1X6.5-3 [33X[0;0YStable poset of category[133X[101X
+  
+  [4X[32X  Example  [32X[104X
+    [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.10-02" );[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XQ := HomalgFieldOfRationalsInSingular( );[127X[104X
+    [4X[28XQ[128X[104X
+    [4X[25Xgap>[125X [27XR := Q["x"] / "x^2";[127X[104X
+    [4X[28XQ[x]/( x^2 )[128X[104X
+    [4X[25Xgap>[125X [27XF := CategoryOfRows( R );[127X[104X
+    [4X[28XRows( Q[x]/( x^2 ) )[128X[104X
+    [4X[25Xgap>[125X [27XS := SliceCategoryOverTensorUnit( F );[127X[104X
+    [4X[28XSliceCategoryOverTensorUnit( Rows( Q[x]/( x^2 ) ) )[128X[104X
+    [4X[25Xgap>[125X [27XP := PosetOfCategory( S );[127X[104X
+    [4X[28XPoset( SliceCategoryOverTensorUnit( Rows( Q[x]/( x^2 ) ) ) )[128X[104X
+    [4X[25Xgap>[125X [27XL := StablePosetOfCategory( P );[127X[104X
+    [4X[28XStablePoset( Poset( SliceCategoryOverTensorUnit( Rows( Q[x]/( x^2 ) ) ) ) )[128X[104X
+    [4X[25Xgap>[125X [27XN := HomalgMatrix( "[ x ]", 1, 1, R ) / F / S / P;[127X[104X
+    [4X[28XAn object in the poset given by:[128X[104X
+    [4X[28XAn object in the slice category given by: <A morphism in Rows( Q[x]/( x^2 ) )>[128X[104X
+    [4X[25Xgap>[125X [27XI := InitialObject( P );[127X[104X
+    [4X[28XAn object in the poset given by:[128X[104X
+    [4X[28XAn object in the slice category given by:[128X[104X
+    [4X[28X<A zero, split monomorphism in Rows( Q[x]/( x^2 ) )>[128X[104X
+    [4X[25Xgap>[125X [27XI = N;[127X[104X
+    [4X[28Xfalse[128X[104X
+    [4X[25Xgap>[125X [27XIsInitial( I );[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XIsInitial( N );[127X[104X
+    [4X[28Xfalse[128X[104X
+    [4X[25Xgap>[125X [27XrN := N / L;[127X[104X
+    [4X[28XAn object in the stable poset given by:[128X[104X
+    [4X[28XAn object in the poset given by:[128X[104X
+    [4X[28XAn object in the slice category given by: <A morphism in Rows( Q[x]/( x^2 ) )>[128X[104X
+    [4X[25Xgap>[125X [27XrI := I / L;[127X[104X
+    [4X[28XAn object in the stable poset given by:[128X[104X
+    [4X[28XAn object in the poset given by:[128X[104X
+    [4X[28XAn object in the slice category given by:[128X[104X
+    [4X[28X<A zero, split monomorphism in Rows( Q[x]/( x^2 ) )>[128X[104X
+    [4X[25Xgap>[125X [27XrI = rN;[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XIsInitial( rI );[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XIsInitial( rN );[127X[104X
+    [4X[28Xtrue[128X[104X
+  [4X[32X[104X
   
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.10-02" );[127X[104X

@@ -1,7 +1,7 @@
 name: Locales
-version: "2020.10-03"
+version: "2020.10-04"
 license: "GPL-2.0-or-later"
-date: 2020-10-17
+date: 2020-10-18
 description: |
     Locales, frames, coframes, meet semi-lattices of locally closed subsets, and Boolean algebras of constructible sets
 
@@ -50,11 +50,11 @@ packageinfo: https://homalg-project.github.io/Locales/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Locales/releases/download/v2020.10-03/Locales-2020.10-03.tar.gz
+      url: https://github.com/homalg-project/Locales/releases/download/v2020.10-04/Locales-2020.10-04.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/Locales/releases/download/v2020.10-03/Locales-2020.10-03.zip
+      url: https://github.com/homalg-project/Locales/releases/download/v2020.10-04/Locales-2020.10-04.zip
 
-pdf: https://github.com/homalg-project/Locales/releases/download/v2020.10-03/Locales-2020.10-03.pdf
+pdf: https://github.com/homalg-project/Locales/releases/download/v2020.10-04/Locales-2020.10-04.pdf
 
 abstract: |
 
@@ -67,7 +67,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BLK20</span>]   <b class='BibAuthor'>Barakat, M., Lange-Hegermann, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Locales, Locales, frames, coframes, meet semi-lattices of locally closed subsets, and Boolean algebras of constructible sets,
-             Version 2020.10-03</i>
+             Version 2020.10-04</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/Locales">https://homalg-project.github.io/Locales</a></span>.
@@ -75,11 +75,11 @@ citeas: |
     
 
 bibtex: |
-    @misc{ Locales2020.10-03,
+    @misc{ Locales2020.10-04,
       author =           {Barakat, M. and Lange-Hegermann, M. and Kuhmichel, T.},
       title =            {{Locales},    Locales,    frames,    coframes,    meet
                           semi-lattices  of  locally closed subsets, and Boolean
-                          algebras of constructible sets, {V}ersion 2020.10-03},
+                          algebras of constructible sets, {V}ersion 2020.10-04},
       month =            {Oct},
       year =             {2020},
       note =             {GAP package},
