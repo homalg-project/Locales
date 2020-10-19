@@ -488,7 +488,7 @@
     [4X[28X SliceCategoryOverTensorUnit( Rows( Q[x,y] ) ) ) )>[128X[104X
     [4X[25Xgap>[125X [27XIsWellDefined( iota );[127X[104X
     [4X[28Xtrue[128X[104X
-    [4X[25Xgap>[125X [27XIsIsomorphism( iota );[127X[104X
+    [4X[25Xgap>[125X [27XIsOne( iota );[127X[104X
     [4X[28Xtrue[128X[104X
     [4X[25Xgap>[125X [27XIJJ := TensorProduct( IJ, J );[127X[104X
     [4X[28XAn object in the stable poset given by:[128X[104X
