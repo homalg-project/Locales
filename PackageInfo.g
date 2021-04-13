@@ -14,11 +14,13 @@ Subtitle := "Locales, frames, coframes, meet semi-lattices of locally closed sub
 Version := Maximum( [
                    "2020.11-01", ## Mohamed's version
                    ## this line prevents merge conflicts
-                   "2019.03.17", ## Tom's version
+                   "2019.03-17", ## Tom's version
+                   ## this line prevents merge conflicts
+                   "2021.03-01", ## Fabian's version
                    ] ),
 
-Date := "08/11/2020",
-Date := "08/11/2020",
+Date := "13/04/2021",
+Date := "13/04/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -74,7 +76,7 @@ SourceRepository := rec(
     URL := "https://github.com/homalg-project/Locales",
 ),
 IssueTrackerURL := Concatenation( ~.SourceRepository.URL, "/issues" ),
-PackageWWWHome  := "https://homalg-project.github.io/Locales",
+PackageWWWHome  := "https://homalg-project.github.io/pkg/Locales",
 PackageInfoURL  := "https://homalg-project.github.io/Locales/PackageInfo.g",
 README_URL      := "https://homalg-project.github.io/Locales/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/Locales/releases/download/v", ~.Version, "/Locales-", ~.Version ),
@@ -108,7 +110,7 @@ Dependencies := rec(
   NeededOtherPackages := [
                    [ "GAPDoc", ">= 1.5" ],
                    [ "ToolsForHomalg", ">= 2020.09.06" ],
-                   [ "CAP", ">= 2019.10.29" ],
+                   [ "CAP", ">= 2021.03-01" ],
                    [ "CategoryConstructor", ">= 2020.10-02" ],
                    [ "MonoidalCategories", ">= 2020.03.01" ],
                    [ "Toposes", ">= 2020.06.05" ],

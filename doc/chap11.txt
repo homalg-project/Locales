@@ -6,7 +6,7 @@
   
   [1X11.1-1 InfoSquashDatastructureForConstructibleObjects[101X
   
-  [33X[1;0Y[29X[2XInfoSquashDatastructureForConstructibleObjects[102X[32X info class[133X
+  [33X[1;0Y[29X[2XInfoSquashDatastructureForConstructibleObjects[102X [32X info class[133X
   
   
   [1X11.2 [33X[0;0YGAP Categories[133X[101X

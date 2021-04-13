@@ -9,7 +9,7 @@
   
   [1X1.1-1 InfoLocales[101X
   
-  [33X[1;0Y[29X[2XInfoLocales[102X[32X info class[133X
+  [33X[1;0Y[29X[2XInfoLocales[102X [32X info class[133X
   
   
   [1X1.2 [33X[0;0YGAP Categories[133X[101X
