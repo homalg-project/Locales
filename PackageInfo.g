@@ -12,15 +12,15 @@ SetPackageInfo( rec(
 PackageName := "Locales",
 Subtitle := "Locales, frames, coframes, meet semi-lattices of locally closed subsets, and Boolean algebras of constructible sets",
 Version := Maximum( [
-                   "2020.11-01", ## Mohamed's version
+                   "2021.04-01", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2019.03-17", ## Tom's version
                    ## this line prevents merge conflicts
                    "2021.03-01", ## Fabian's version
                    ] ),
 
-Date := "13/04/2021",
-Date := "13/04/2021",
+Date := "14/04/2021",
+Date := "14/04/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
