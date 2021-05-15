@@ -16,11 +16,11 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    "2019.03-17", ## Tom's version
                    ## this line prevents merge conflicts
-                   "2021.03-01", ## Fabian's version
+                   "2021.05-01", ## Fabian's version
                    ] ),
 
-Date := "14/04/2021",
-Date := "14/04/2021",
+Date := "15/05/2021",
+Date := "15/05/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -110,7 +110,7 @@ Dependencies := rec(
   NeededOtherPackages := [
                    [ "GAPDoc", ">= 1.5" ],
                    [ "ToolsForHomalg", ">= 2020.09.06" ],
-                   [ "CAP", ">= 2021.03-01" ],
+                   [ "CAP", ">= 2021.05-02" ],
                    [ "CategoryConstructor", ">= 2020.10-02" ],
                    [ "MonoidalCategories", ">= 2020.03.01" ],
                    [ "Toposes", ">= 2020.06.05" ],
