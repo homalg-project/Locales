@@ -37,6 +37,11 @@
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X84B953AF7E69CC82">5.1-7 MorphismFromDoubleConegationWithGivenDoubleConegation</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7E8E6D08825D2212">5.1-8 AddMorphismFromDoubleConegationWithGivenDoubleConegation</a></span>
 </div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap5_mj.html#X7C1948228493BE23">5.2 <span class="Heading">Stable internal coHom</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7C594CDF7ADE1FE4">5.2-1 StableInternalCoHom</a></span>
+</div></div>
 </div>
 
 <h3>5 <span class="Heading">Co-Heyting algebras</span></h3>
@@ -116,6 +121,19 @@
 <p>Returns: nothing</p>
 
 <p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismFromDoubleConegationWithGivenDoubleConegation</code>. <span class="SimpleMath">\(F: (a, \ulcorner\ulcorner a) \mapsto (\ulcorner\ulcorner a \rightarrow a)\)</span>.</p>
+
+<p><a id="X7C1948228493BE23" name="X7C1948228493BE23"></a></p>
+
+<h4>5.2 <span class="Heading">Stable internal coHom</span></h4>
+
+<p><a id="X7C594CDF7ADE1FE4" name="X7C594CDF7ADE1FE4"></a></p>
+
+<h5>5.2-1 StableInternalCoHom</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; StableInternalCoHom</code>( <var class="Arg">V</var>, <var class="Arg">W</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a <strong class="pkg">CAP</strong> object</p>
+
+<p>Return the stable internal coHom: <span class="SimpleMath">\(\mathrm{\underline{coHom}}(\mathrm{\underline{coHom}}(...\mathrm{\underline{coHom}}(V,W)...,W),W)\)</span>.</p>
 
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap4_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap6_mj.html">[Next Chapter]</a>&nbsp;  </div>

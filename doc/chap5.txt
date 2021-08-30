@@ -75,3 +75,14 @@
   [10XMorphismFromDoubleConegationWithGivenDoubleConegation[110X.         [23XF:        (a,
   \ulcorner\ulcorner a) \mapsto (\ulcorner\ulcorner a \rightarrow a)[123X.[133X
   
+  
+  [1X5.2 [33X[0;0YStable internal coHom[133X[101X
+  
+  [1X5.2-1 StableInternalCoHom[101X
+  
+  [33X[1;0Y[29X[2XStableInternalCoHom[102X( [3XV[103X, [3XW[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
+  
+  [33X[0;0YReturn            the            stable            internal           coHom:
+  [23X\mathrm{\underline{coHom}}(\mathrm{\underline{coHom}}(...\mathrm{\underline{coHom}}(V,W)...,W),W)[123X.[133X
+  

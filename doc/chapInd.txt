@@ -126,6 +126,7 @@
   [2XRemoveObsoleteSubtrahends[102X, for IsDatastructureForConstructibleObjects 11.4-7 
   [2XSquash[102X, for IsDatastructureForConstructibleObjects 11.4-8 
   [2XSquashOnce[102X, for IsDatastructureForConstructibleObjects 11.4-6 
+  [2XStableInternalCoHom[102X, for IsCapCategoryObject, IsCapCategoryObject 5.2-1 
   [2XStableInternalHom[102X, for IsCapCategoryObject, IsCapCategoryObject 4.2-1 
   [2XStablePosetOfCategory[102X, for IsCapCategory 6.4-5 
   [2XStableProsetOfCategory[102X, for IsCapCategory 6.4-3 

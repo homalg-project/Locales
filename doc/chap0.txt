@@ -7,10 +7,10 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2021.06-01
+                                   2021.08-01
   
   
-                                  16 June 2021
+                                 30 August 2021
   
   
                                 Mohamed Barakat
@@ -97,6 +97,8 @@
       5.1-6 MorphismFromDoubleConegation
       5.1-7 MorphismFromDoubleConegationWithGivenDoubleConegation
       5.1-8 AddMorphismFromDoubleConegationWithGivenDoubleConegation
+    5.2 [33X[0;0YStable internal coHom[133X
+      5.2-1 StableInternalCoHom
   6 [33X[0;0YThe (stable) proset/poset of a category[133X
     6.1 [33X[0;0YGAP categories[133X
       6.1-1 IsProsetOrPosetOfCapCategory

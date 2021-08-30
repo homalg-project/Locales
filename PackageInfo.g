@@ -11,16 +11,9 @@ SetPackageInfo( rec(
 
 PackageName := "Locales",
 Subtitle := "Locales, frames, coframes, meet semi-lattices of locally closed subsets, and Boolean algebras of constructible sets",
-Version := Maximum( [
-                   "2021.04-01", ## Mohamed's version
-                   ## this line prevents merge conflicts
-                   "2019.03-17", ## Tom's version
-                   ## this line prevents merge conflicts
-                   "2021.06-01", ## Fabian's version
-                   ] ),
-
-Date := "16/06/2021",
-Date := "16/06/2021",
+Version := "2021.08-01",
+Date := "30/08/2021",
+Date := "30/08/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -112,7 +105,7 @@ Dependencies := rec(
                    [ "ToolsForHomalg", ">= 2020.09.06" ],
                    [ "CAP", ">= 2021.05-02" ],
                    [ "CategoryConstructor", ">= 2021.06-01" ],
-                   [ "MonoidalCategories", ">= 2020.03.01" ],
+                   [ "MonoidalCategories", ">= 2021.02-01" ],
                    [ "Toposes", ">= 2020.06.05" ],
                    [ "Digraphs", ">= 0.12.1" ],
                    ],
