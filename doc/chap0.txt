@@ -7,10 +7,10 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2021.10-01
+                                   2021.10-02
   
   
-                                 9 October 2021
+                                12 October 2021
   
   
                                 Mohamed Barakat
@@ -143,8 +143,9 @@
       7.1-6 AddMorphismToDoubleConegationWithGivenDoubleConegation
   8 [33X[0;0YMeet-semilattice of differences[133X
     8.1 [33X[0;0YGAP Categories[133X
-      8.1-1 IsObjectInMeetSemilatticeOfSingleDifferences
-      8.1-2 IsMorphismInMeetSemilatticeOfSingleDifferences
+      8.1-1 IsMeetSemilatticeOfSingleDifferences
+      8.1-2 IsObjectInMeetSemilatticeOfSingleDifferences
+      8.1-3 IsMorphismInMeetSemilatticeOfSingleDifferences
     8.2 [33X[0;0YOperations[133X
       8.2-1 PairInUnderlyingLattice
       8.2-2 DistinguishedSubtrahend
@@ -153,8 +154,9 @@
       8.3-2 \-
   9 [33X[0;0YMeet-semilattice of multiple differences[133X
     9.1 [33X[0;0YGAP Categories[133X
-      9.1-1 IsObjectInMeetSemilatticeOfMultipleDifferences
-      9.1-2 IsMorphismInMeetSemilatticeOfMultipleDifferences
+      9.1-1 IsMeetSemilatticeOfMultipleDifferences
+      9.1-2 IsObjectInMeetSemilatticeOfMultipleDifferences
+      9.1-3 IsMorphismInMeetSemilatticeOfMultipleDifferences
     9.2 [33X[0;0YAttributes[133X
       9.2-1 AsSingleDifference
     9.3 [33X[0;0YOperations[133X
@@ -165,25 +167,29 @@
       9.4-2 AsMultipleDifference
   10 [33X[0;0YBoolean algebra of constructible objects[133X
     10.1 [33X[0;0YGAP Categories[133X
-      10.1-1 IsConstructibleObject
-      10.1-2 IsMorphismBetweenConstructibleObjects
-      10.1-3 IsConstructibleObjectAsUnionOfMultipleDifferences
-      10.1-4 IsMorphismBetweenConstructibleObjectsAsUnionOfMultipleDifferences
-      10.1-5 IsConstructibleObjectAsUnionOfSingleDifferences
-      10.1-6 IsMorphismBetweenConstructibleObjectsAsUnionOfDifferences
+      10.1-1 IsBooleanAlgebraOfConstructibleObjects
+      10.1-2 IsConstructibleObject
+      10.1-3 IsMorphismBetweenConstructibleObjects
+      10.1-4 IsBooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences
+      10.1-5 IsConstructibleObjectAsUnionOfMultipleDifferences
+      10.1-6 IsMorphismBetweenConstructibleObjectsAsUnionOfMultipleDifferences
+      10.1-7 IsBooleanAlgebraOfConstructibleObjectsAsUnionOfSingleDifferences
+      10.1-8 IsConstructibleObjectAsUnionOfSingleDifferences
+      10.1-9 IsMorphismBetweenConstructibleObjectsAsUnionOfDifferences
     10.2 [33X[0;0YProperties[133X
       10.2-1 IsOpen
       10.2-2 IsClosed
       10.2-3 IsLocallyClosed
     10.3 [33X[0;0YAttributes[133X
-      10.3-1 LocallyClosedPart
-      10.3-2 CanonicalObject
-      10.3-3 FactorizeObject
-      10.3-4 NormalizedObject
-      10.3-5 StandardizedObject
-      10.3-6 Closure
-      10.3-7 ClosureAsConstructibleObject
-      10.3-8 Dimension
+      10.3-1 UnderlyingCategory
+      10.3-2 LocallyClosedPart
+      10.3-3 CanonicalObject
+      10.3-4 FactorizeObject
+      10.3-5 NormalizedObject
+      10.3-6 StandardizedObject
+      10.3-7 Closure
+      10.3-8 ClosureAsConstructibleObject
+      10.3-9 Dimension
     10.4 [33X[0;0YOperations[133X
       10.4-1 NormalizeObject
       10.4-2 StandardizeObject
@@ -224,18 +230,20 @@
       11.4-12 Visualize
   12 [33X[0;0YMeet-semilattice of single/multiple differences[133X
     12.1 [33X[0;0YGAP Categories[133X
-      12.1-1 IsObjectInMeetSemilatticeOfDifferences
-      12.1-2 IsMorphismInMeetSemilatticeOfDifferences
+      12.1-1 IsMeetSemilatticeOfDifferences
+      12.1-2 IsObjectInMeetSemilatticeOfDifferences
+      12.1-3 IsMorphismInMeetSemilatticeOfDifferences
     12.2 [33X[0;0YProperties[133X
       12.2-1 IsClosed
       12.2-2 IsOpen
       12.2-3 IsLocallyClosed
     12.3 [33X[0;0YAttributes[133X
-      12.3-1 LocallyClosedPart
-      12.3-2 CanonicalObject
-      12.3-3 FactorizeObject
-      12.3-4 Closure
-      12.3-5 Dimension
+      12.3-1 UnderlyingCategory
+      12.3-2 LocallyClosedPart
+      12.3-3 CanonicalObject
+      12.3-4 FactorizeObject
+      12.3-5 Closure
+      12.3-6 Dimension
     12.4 [33X[0;0YOperations[133X
       12.4-1 NormalizeObject
       12.4-2 StandardizeObject
