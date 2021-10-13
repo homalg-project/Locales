@@ -7,10 +7,10 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2021.10-02
+                                   2021.10-03
   
   
-                                12 October 2021
+                                13 October 2021
   
   
                                 Mohamed Barakat
@@ -228,25 +228,28 @@
       11.4-10 DigraphOfParents
       11.4-11 DigraphOfChildren
       11.4-12 Visualize
-  12 [33X[0;0YMeet-semilattice of single/multiple differences[133X
-    12.1 [33X[0;0YGAP Categories[133X
-      12.1-1 IsMeetSemilatticeOfDifferences
-      12.1-2 IsObjectInMeetSemilatticeOfDifferences
-      12.1-3 IsMorphismInMeetSemilatticeOfDifferences
-    12.2 [33X[0;0YProperties[133X
-      12.2-1 IsClosed
-      12.2-2 IsOpen
-      12.2-3 IsLocallyClosed
-    12.3 [33X[0;0YAttributes[133X
-      12.3-1 UnderlyingCategory
-      12.3-2 LocallyClosedPart
-      12.3-3 CanonicalObject
-      12.3-4 FactorizeObject
-      12.3-5 Closure
-      12.3-6 Dimension
-    12.4 [33X[0;0YOperations[133X
-      12.4-1 NormalizeObject
-      12.4-2 StandardizeObject
+  12 [33X[0;0YTests[133X
+    12.1 [33X[0;0YExamples[133X
+      12.1-1 [33X[0;0YPrecompilation[133X
+  13 [33X[0;0YMeet-semilattice of single/multiple differences[133X
+    13.1 [33X[0;0YGAP Categories[133X
+      13.1-1 IsMeetSemilatticeOfDifferences
+      13.1-2 IsObjectInMeetSemilatticeOfDifferences
+      13.1-3 IsMorphismInMeetSemilatticeOfDifferences
+    13.2 [33X[0;0YProperties[133X
+      13.2-1 IsClosed
+      13.2-2 IsOpen
+      13.2-3 IsLocallyClosed
+    13.3 [33X[0;0YAttributes[133X
+      13.3-1 UnderlyingCategory
+      13.3-2 LocallyClosedPart
+      13.3-3 CanonicalObject
+      13.3-4 FactorizeObject
+      13.3-5 Closure
+      13.3-6 Dimension
+    13.4 [33X[0;0YOperations[133X
+      13.4-1 NormalizeObject
+      13.4-2 StandardizeObject
   
   
   [32X
