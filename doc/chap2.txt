@@ -15,13 +15,3 @@
   from [3XA[103X to [3XB[103X, i.e., if [3XA[103X is known to be less or equal to [3XB[103X w.r.t. the partial
   order.[133X
   
-  [1X2.1-2 AddIsEqualForObjectsIfIsHomSetInhabited[101X
-  
-  [33X[1;0Y[29X[2XAddIsEqualForObjectsIfIsHomSetInhabited[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XIsEqualForObjectsIfIsHomSetInhabited[110X.       [23XF:       A,       B      \mapsto
-  \mathrm{IsEqualForObjectsIfIsHomSetInhabited}(A, B)[123X.[133X
-  

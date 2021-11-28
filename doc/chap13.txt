@@ -1,100 +1,104 @@
   
-  [1X13 [33X[0;0YMeet-semilattice of single/multiple differences[133X[101X
+  [1X13 [33X[0;0YLocales automatic generated documentation[133X[101X
   
   
-  [1X13.1 [33X[0;0YGAP Categories[133X[101X
+  [1X13.1 [33X[0;0YLocales automatic generated documentation of methods[133X[101X
   
-  [1X13.1-1 IsMeetSemilatticeOfDifferences[101X
+  [1X13.1-1 AddMorphismFromDoubleNegationWithGivenDoubleNegation[101X
   
-  [33X[1;0Y[29X[2XIsMeetSemilatticeOfDifferences[102X( [3Xobject[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [33X[1;0Y[29X[2XAddMorphismFromDoubleNegationWithGivenDoubleNegation[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [33X[0;0YThe [5XGAP[105X category of a meet-semilattice of single/multiple differences.[133X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismFromDoubleNegationWithGivenDoubleNegation[110X.   [23XF:   (a,   \neg\neg  a)
+  \mapsto (\neg\neg a \rightarrow a)[123X.[133X
   
-  [1X13.1-2 IsObjectInMeetSemilatticeOfDifferences[101X
+  [1X13.1-2 AddMorphismToDoubleConegationWithGivenDoubleConegation[101X
   
-  [33X[1;0Y[29X[2XIsObjectInMeetSemilatticeOfDifferences[102X( [3Xobject[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [33X[1;0Y[29X[2XAddMorphismToDoubleConegationWithGivenDoubleConegation[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [33X[0;0YThe  [5XGAP[105X  category  of  objects  in  a  meet-semilattice  of single/multiple
-  differences.[133X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismToDoubleConegationWithGivenDoubleConegation[110X.          [23XF:         (a,
+  \ulcorner\ulcorner a) \mapsto (a \rightarrow \ulcorner\ulcorner a)[123X.[133X
   
-  [1X13.1-3 IsMorphismInMeetSemilatticeOfDifferences[101X
+  [1X13.1-3 AddConegationOnObjects[101X
   
-  [33X[1;0Y[29X[2XIsMorphismInMeetSemilatticeOfDifferences[102X( [3Xmorphism[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [33X[1;0Y[29X[2XAddConegationOnObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [33X[0;0YThe  [5XGAP[105X  category  of  morphisms  in  a meet-semilattice of single/multiple
-  differences.[133X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XConegationOnObjects[110X. [23XF: a \mapsto \ulcorner a[123X.[133X
   
+  [1X13.1-4 AddConegationOnMorphismsWithGivenConegations[101X
   
-  [1X13.2 [33X[0;0YProperties[133X[101X
+  [33X[1;0Y[29X[2XAddConegationOnMorphismsWithGivenConegations[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [1X13.2-1 IsClosed[101X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XConegationOnMorphismsWithGivenConegations[110X.  [23XF: (\ulcorner b,\alpha,\ulcorner
+  a) \mapsto \ulcorner \alpha[123X.[133X
   
-  [33X[1;0Y[29X[2XIsClosed[102X( [3XA[103X ) [32X operation[133X
+  [1X13.1-5 AddMorphismFromDoubleConegationWithGivenDoubleConegation[101X
   
-  [33X[0;0YThe  embedding of the meet-semilattice of formal single/multiple differences
-  into  the  underlying  lattice  has  a  right  adjoint, at least in case the
-  underying  lattice  is  a  co-Heyting algebra. A formal single difference is
-  closed  if  its  component  of  the  unit  of  the  above  adjunction  is an
-  isomorphism.[133X
+  [33X[1;0Y[29X[2XAddMorphismFromDoubleConegationWithGivenDoubleConegation[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [1X13.2-2 IsOpen[101X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismFromDoubleConegationWithGivenDoubleConegation[110X.         [23XF:        (a,
+  \ulcorner\ulcorner a) \mapsto (\ulcorner\ulcorner a \rightarrow a)[123X.[133X
   
-  [33X[1;0Y[29X[2XIsOpen[102X( [3XA[103X ) [32X property[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [1X13.1-6 AddNegationOnObjects[101X
   
-  [33X[0;0YCheck if the complement (a constructible object) of [3XA[103X is closed.[133X
+  [33X[1;0Y[29X[2XAddNegationOnObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [1X13.2-3 IsLocallyClosed[101X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given  function [23XF[123X to the category for the basic operation [10XNegationOnObjects[110X.
+  [23XF: a \mapsto \neg a[123X.[133X
   
-  [33X[1;0Y[29X[2XIsLocallyClosed[102X( [3XA[103X ) [32X property[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [1X13.1-7 AddNegationOnMorphismsWithGivenNegations[101X
   
+  [33X[1;0Y[29X[2XAddNegationOnMorphismsWithGivenNegations[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [1X13.3 [33X[0;0YAttributes[133X[101X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XNegationOnMorphismsWithGivenNegations[110X.  [23XF:  (\neg  b,\alpha,\neg  a) \mapsto
+  \neg \alpha[123X.[133X
   
-  [1X13.3-1 UnderlyingCategory[101X
+  [1X13.1-8 AddMorphismToDoubleNegationWithGivenDoubleNegation[101X
   
-  [33X[1;0Y[29X[2XUnderlyingCategory[102X( [3XD[103X ) [32X attribute[133X
-  [6XReturns:[106X  [33X[0;10Ya CAP category[133X
+  [33X[1;0Y[29X[2XAddMorphismToDoubleNegationWithGivenDoubleNegation[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [33X[0;0YThe  category underlying the meet-semilattice of single/multiple differences
-  [3XD[103X.[133X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismToDoubleNegationWithGivenDoubleNegation[110X.  [23XF: (a, \neg\neg a) \mapsto
+  (a \rightarrow \neg\neg a)[123X.[133X
   
-  [1X13.3-2 LocallyClosedPart[101X
+  [1X13.1-9 AddIsEqualForObjectsIfIsHomSetInhabited[101X
   
-  [33X[1;0Y[29X[2XLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
+  [33X[1;0Y[29X[2XAddIsEqualForObjectsIfIsHomSetInhabited[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [1X13.3-3 CanonicalObject[101X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XIsEqualForObjectsIfIsHomSetInhabited[110X.       [23XF:       A,       B      \mapsto
+  \mathrm{IsEqualForObjectsIfIsHomSetInhabited}(A, B)[123X.[133X
   
-  [33X[1;0Y[29X[2XCanonicalObject[102X( [3XA[103X ) [32X attribute[133X
+  [1X13.1-10 AddAreIsomorphicForObjectsIfIsHomSetInhabited[101X
   
-  [1X13.3-4 FactorizeObject[101X
+  [33X[1;0Y[29X[2XAddAreIsomorphicForObjectsIfIsHomSetInhabited[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
   
-  [33X[1;0Y[29X[2XFactorizeObject[102X( [3XA[103X ) [32X attribute[133X
-  
-  [1X13.3-5 Closure[101X
-  
-  [33X[1;0Y[29X[2XClosure[102X( [3XA[103X ) [32X attribute[133X
-  [6XReturns:[106X  [33X[0;10Yan object in a co-Heyting algebra.[133X
-  
-  [33X[0;0YThe  closure  of the formal single difference [3XA[103X in the underlying co-Heyting
-  algebra.[133X
-  
-  [1X13.3-6 Dimension[101X
-  
-  [33X[1;0Y[29X[2XDimension[102X( [3XA[103X ) [32X attribute[133X
-  
-  
-  [1X13.4 [33X[0;0YOperations[133X[101X
-  
-  [1X13.4-1 NormalizeObject[101X
-  
-  [33X[1;0Y[29X[2XNormalizeObject[102X( [3XA[103X ) [32X operation[133X
-  
-  [1X13.4-2 StandardizeObject[101X
-  
-  [33X[1;0Y[29X[2XStandardizeObject[102X( [3XA[103X ) [32X operation[133X
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XAreIsomorphicForObjectsIfIsHomSetInhabited[110X.      [23XF:     A,     B     \mapsto
+  \mathrm{AreIsomorphicForObjectsIfIsHomSetInhabited}(A, B)[123X.[133X
   
