@@ -42,9 +42,11 @@
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap5_mj.html#X85C8C80F785AEB5E">5.3 <span class="Heading">Add-methods</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X872C777F797B8F46">5.3-1 AddConegationOnMorphismsWithGivenConegations</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X853FE0C17E1A4D02">5.3-2 AddConegationOnObjects</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7E8E6D08825D2212">5.3-3 AddMorphismFromDoubleConegationWithGivenDoubleConegation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X83C0ECED79C23EFD">5.3-1 AddConegationOnMorphisms</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X872C777F797B8F46">5.3-2 AddConegationOnMorphismsWithGivenConegations</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X853FE0C17E1A4D02">5.3-3 AddConegationOnObjects</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X818D51D17F01B42C">5.3-4 AddMorphismFromDoubleConegation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7E8E6D08825D2212">5.3-5 AddMorphismFromDoubleConegationWithGivenDoubleConegation</a></span>
 </div></div>
 </div>
 
@@ -116,9 +118,18 @@
 
 <h4>5.3 <span class="Heading">Add-methods</span></h4>
 
+<p><a id="X83C0ECED79C23EFD" name="X83C0ECED79C23EFD"></a></p>
+
+<h5>5.3-1 AddConegationOnMorphisms</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddConegationOnMorphisms</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">ConegationOnMorphisms</code>. <span class="SimpleMath">\(F: ( alpha ) \mapsto \mathtt{ConegationOnMorphisms}(alpha)\)</span>.</p>
+
 <p><a id="X872C777F797B8F46" name="X872C777F797B8F46"></a></p>
 
-<h5>5.3-1 AddConegationOnMorphismsWithGivenConegations</h5>
+<h5>5.3-2 AddConegationOnMorphismsWithGivenConegations</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddConegationOnMorphismsWithGivenConegations</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: nothing</p>
@@ -127,16 +138,25 @@
 
 <p><a id="X853FE0C17E1A4D02" name="X853FE0C17E1A4D02"></a></p>
 
-<h5>5.3-2 AddConegationOnObjects</h5>
+<h5>5.3-3 AddConegationOnObjects</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddConegationOnObjects</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: nothing</p>
 
-<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">ConegationOnObjects</code>. <span class="SimpleMath">\(F: ( a ) \mapsto \mathtt{ConegationOnObjects}(a)\)</span>.</p>
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">ConegationOnObjects</code>. <span class="SimpleMath">\(F: ( arg2 ) \mapsto \mathtt{ConegationOnObjects}(arg2)\)</span>.</p>
+
+<p><a id="X818D51D17F01B42C" name="X818D51D17F01B42C"></a></p>
+
+<h5>5.3-4 AddMorphismFromDoubleConegation</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismFromDoubleConegation</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismFromDoubleConegation</code>. <span class="SimpleMath">\(F: ( a ) \mapsto \mathtt{MorphismFromDoubleConegation}(a)\)</span>.</p>
 
 <p><a id="X7E8E6D08825D2212" name="X7E8E6D08825D2212"></a></p>
 
-<h5>5.3-3 AddMorphismFromDoubleConegationWithGivenDoubleConegation</h5>
+<h5>5.3-5 AddMorphismFromDoubleConegationWithGivenDoubleConegation</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismFromDoubleConegationWithGivenDoubleConegation</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: nothing</p>

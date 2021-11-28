@@ -7,7 +7,7 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2021.11-04
+                                   2021.11-05
   
   
                                 28 November 2021
@@ -87,9 +87,11 @@
     4.2 [33X[0;0YStable internal Hom[133X
       4.2-1 StableInternalHom
     4.3 [33X[0;0YAdd-methods[133X
-      4.3-1 AddMorphismToDoubleNegationWithGivenDoubleNegation
-      4.3-2 AddNegationOnMorphismsWithGivenNegations
-      4.3-3 AddNegationOnObjects
+      4.3-1 AddMorphismToDoubleNegation
+      4.3-2 AddMorphismToDoubleNegationWithGivenDoubleNegation
+      4.3-3 AddNegationOnMorphisms
+      4.3-4 AddNegationOnMorphismsWithGivenNegations
+      4.3-5 AddNegationOnObjects
   5 [33X[0;0YCo-Heyting algebras[133X
     5.1 [33X[0;0YOperations[133X
       5.1-1 ConegationOnObjects
@@ -100,9 +102,11 @@
     5.2 [33X[0;0YStable internal coHom[133X
       5.2-1 StableInternalCoHom
     5.3 [33X[0;0YAdd-methods[133X
-      5.3-1 AddConegationOnMorphismsWithGivenConegations
-      5.3-2 AddConegationOnObjects
-      5.3-3 AddMorphismFromDoubleConegationWithGivenDoubleConegation
+      5.3-1 AddConegationOnMorphisms
+      5.3-2 AddConegationOnMorphismsWithGivenConegations
+      5.3-3 AddConegationOnObjects
+      5.3-4 AddMorphismFromDoubleConegation
+      5.3-5 AddMorphismFromDoubleConegationWithGivenDoubleConegation
   6 [33X[0;0YThe (stable) proset/poset of a category[133X
     6.1 [33X[0;0YGlobal variables[133X
       6.1-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY
