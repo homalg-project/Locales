@@ -37,3 +37,26 @@
   output  is  the  inverse  [23Xa \rightarrow \ulcorner\ulcorner a[123X of the morphism
   from the double conegation.[133X
   
+  
+  [1X7.2 [33X[0;0YAdd-methods[133X[101X
+  
+  [1X7.2-1 AddMorphismFromDoubleNegationWithGivenDoubleNegation[101X
+  
+  [33X[1;0Y[29X[2XAddMorphismFromDoubleNegationWithGivenDoubleNegation[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismFromDoubleNegationWithGivenDoubleNegation[110X.  [23XF:  (  a,  s  )  \mapsto
+  \mathtt{MorphismFromDoubleNegationWithGivenDoubleNegation}(a, s)[123X.[133X
+  
+  [1X7.2-2 AddMorphismToDoubleConegationWithGivenDoubleConegation[101X
+  
+  [33X[1;0Y[29X[2XAddMorphismToDoubleConegationWithGivenDoubleConegation[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismToDoubleConegationWithGivenDoubleConegation[110X.  [23XF:  (  a,  s ) \mapsto
+  \mathtt{MorphismToDoubleConegationWithGivenDoubleConegation}(a, s)[123X.[133X
+  

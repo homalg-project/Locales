@@ -2,7 +2,7 @@
   [1X12 [33X[0;0YTests[133X[101X
   
   
-  [1X12.1 [33X[0;0YExamples[133X[101X
+  [1X12.1 [33X[0;0YGAP Categories[133X[101X
   
   
   [1X12.1-1 [33X[0;0YPrecompilation[133X[101X

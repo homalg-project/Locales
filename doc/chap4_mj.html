@@ -18,7 +18,7 @@
 <body class="chap4"  onload="jscontent()">
 
 
-<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chap14_mj.html">14</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chapInd_mj.html">Ind</a>  </div>
 
 <div class="chlinkprevnexttop">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap3_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap5_mj.html">[Next Chapter]</a>&nbsp;  </div>
 
@@ -38,6 +38,13 @@
 </span>
 <div class="ContSSBlock">
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4_mj.html#X798556BA86A5C128">4.2-1 StableInternalHom</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap4_mj.html#X85C8C80F785AEB5E">4.3 <span class="Heading">Add-methods</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4_mj.html#X80C6C9467A66CFD9">4.3-1 AddMorphismToDoubleNegationWithGivenDoubleNegation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4_mj.html#X7F710DED79B060B6">4.3-2 AddNegationOnMorphismsWithGivenNegations</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4_mj.html#X7F4079C08710AF8A">4.3-3 AddNegationOnObjects</a></span>
 </div></div>
 </div>
 
@@ -105,11 +112,42 @@
 
 <p>Return the stable internal Hom: <span class="SimpleMath">\(\mathrm{\underline{Hom}}(J,\mathrm{\underline{Hom}}(J,...\mathrm{\underline{Hom}}(J,I)...))\)</span>.</p>
 
+<p><a id="X85C8C80F785AEB5E" name="X85C8C80F785AEB5E"></a></p>
+
+<h4>4.3 <span class="Heading">Add-methods</span></h4>
+
+<p><a id="X80C6C9467A66CFD9" name="X80C6C9467A66CFD9"></a></p>
+
+<h5>4.3-1 AddMorphismToDoubleNegationWithGivenDoubleNegation</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismToDoubleNegationWithGivenDoubleNegation</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismToDoubleNegationWithGivenDoubleNegation</code>. <span class="SimpleMath">\(F: ( a, r ) \mapsto \mathtt{MorphismToDoubleNegationWithGivenDoubleNegation}(a, r)\)</span>.</p>
+
+<p><a id="X7F710DED79B060B6" name="X7F710DED79B060B6"></a></p>
+
+<h5>4.3-2 AddNegationOnMorphismsWithGivenNegations</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddNegationOnMorphismsWithGivenNegations</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">NegationOnMorphismsWithGivenNegations</code>. <span class="SimpleMath">\(F: ( s, alpha, r ) \mapsto \mathtt{NegationOnMorphismsWithGivenNegations}(s, alpha, r)\)</span>.</p>
+
+<p><a id="X7F4079C08710AF8A" name="X7F4079C08710AF8A"></a></p>
+
+<h5>4.3-3 AddNegationOnObjects</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddNegationOnObjects</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">NegationOnObjects</code>. <span class="SimpleMath">\(F: ( a ) \mapsto \mathtt{NegationOnObjects}(a)\)</span>.</p>
+
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap3_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap5_mj.html">[Next Chapter]</a>&nbsp;  </div>
 
 
-<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chap14_mj.html">14</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chapInd_mj.html">Ind</a>  </div>
 
 <hr />
 <p class="foot">generated by <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>

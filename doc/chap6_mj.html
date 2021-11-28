@@ -18,196 +18,84 @@
 <body class="chap6"  onload="jscontent()">
 
 
-<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chap14_mj.html">14</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chapInd_mj.html">Ind</a>  </div>
 
 <div class="chlinkprevnexttop">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap5_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap7_mj.html">[Next Chapter]</a>&nbsp;  </div>
 
 <p id="mathjaxlink" class="pcenter"><a href="chap6.html">[MathJax off]</a></p>
 <p><a id="X841B28097AFB29ED" name="X841B28097AFB29ED"></a></p>
 <div class="ChapSects"><a href="chap6_mj.html#X841B28097AFB29ED">6 <span class="Heading">The (stable) proset/poset of a category</span></a>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7D03633A7D98026B">6.1 <span class="Heading">GAP categories</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7D9044767BEB1523">6.1 <span class="Heading">Global variables</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C307E3485AC0353">6.1-1 IsProsetOrPosetOfCapCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7F2CA8BB84237268">6.1-2 IsCapCategoryCellInProsetOrPosetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C6C5A9F85D92E82">6.1-3 IsCapCategoryCellInStableProsetOrPosetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X79CE71268014E31A">6.1-4 IsCapCategoryObjectInProsetOrPosetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7B1247F27EA3DC1C">6.1-5 IsProsetOfCapCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X828326068126A01A">6.1-6 IsCapCategoryCellInProsetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X8563C9D57C4BAC79">6.1-7 IsCapCategoryObjectInProsetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X85505F49791669CE">6.1-8 IsCapCategoryMorphismInProsetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X80D74D0783D4D8F3">6.1-9 IsPosetOfCapCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X830354C981F5E506">6.1-10 IsCapCategoryCellInPosetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X807FE44483572073">6.1-11 IsCapCategoryObjectInPosetOfACategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7D7A87DB7BBB3ABC">6.1-12 IsCapCategoryMorphismInPosetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X835CB9BA7B5D118D">6.1-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY</a></span>
 </div></div>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7D9044767BEB1523">6.2 <span class="Heading">Global variables</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7C701DBF7BAE649A">6.2 <span class="Heading">Attributes</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X835CB9BA7B5D118D">6.2-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X811027AC7B5DEF11">6.2-1 UnderlyingCell</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X85702AB27ADF48CA">6.2-2 AmbientCategory</a></span>
 </div></div>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7C701DBF7BAE649A">6.3 <span class="Heading">Attributes</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X86EC0F0A78ECBC10">6.3 <span class="Heading">Constructors</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X811027AC7B5DEF11">6.3-1 UnderlyingCell</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X85702AB27ADF48CA">6.3-2 AmbientCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X8049440E7EFD9EA3">6.3-1 CreateProsetOrPosetOfCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7B09E9E07E77590E">6.3-2 ProsetOfCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X8752F6307A2CC7FF">6.3-3 StableProsetOfCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7CED62D3823B3875">6.3-4 PosetOfCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C510918829D2DAF">6.3-5 StablePosetOfCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X83C7D92980FD8200">6.3-6 AsCellOfProset</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7F1751537AB8BFF5">6.3-7 AsCellOfStableProset</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X80E0FC6A79F094D5">6.3-8 AsCellOfPoset</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7D18EFF57A55C225">6.3-9 AsCellOfStablePoset</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X80BF5F0187E00004">6.3-10 /</a></span>
 </div></div>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X86EC0F0A78ECBC10">6.4 <span class="Heading">Constructors</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7A489A5D79DA9E5C">6.4 <span class="Heading">Examples</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X8049440E7EFD9EA3">6.4-1 CreateProsetOrPosetOfCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7B09E9E07E77590E">6.4-2 ProsetOfCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X8752F6307A2CC7FF">6.4-3 StableProsetOfCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7CED62D3823B3875">6.4-4 PosetOfCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C510918829D2DAF">6.4-5 StablePosetOfCategory</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X83C7D92980FD8200">6.4-6 AsCellOfProset</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7F1751537AB8BFF5">6.4-7 AsCellOfStableProset</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X80E0FC6A79F094D5">6.4-8 AsCellOfPoset</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7D18EFF57A55C225">6.4-9 AsCellOfStablePoset</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X80BF5F0187E00004">6.4-10 /</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X79AD216F87C9232C">6.4-1 <span class="Heading">Ideal quotient</span></a>
+</span>
 </div></div>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7A489A5D79DA9E5C">6.5 <span class="Heading">Examples</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6_mj.html#X7D03633A7D98026B">6.5 <span class="Heading">GAP categories</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X79AD216F87C9232C">6.5-1 <span class="Heading">Ideal quotient</span></a>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7881DF667EF49C5D">6.5-1 <span class="Heading">Poset of category</span></a>
 </span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7881DF667EF49C5D">6.5-2 <span class="Heading">Poset of category</span></a>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C1992657C3EAEDF">6.5-2 <span class="Heading">Stable poset of category</span></a>
 </span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C1992657C3EAEDF">6.5-3 <span class="Heading">Stable poset of category</span></a>
-</span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C307E3485AC0353">6.5-3 IsProsetOrPosetOfCapCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7F2CA8BB84237268">6.5-4 IsCapCategoryCellInProsetOrPosetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7C6C5A9F85D92E82">6.5-5 IsCapCategoryCellInStableProsetOrPosetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X79CE71268014E31A">6.5-6 IsCapCategoryObjectInProsetOrPosetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7B1247F27EA3DC1C">6.5-7 IsProsetOfCapCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X828326068126A01A">6.5-8 IsCapCategoryCellInProsetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X8563C9D57C4BAC79">6.5-9 IsCapCategoryObjectInProsetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X85505F49791669CE">6.5-10 IsCapCategoryMorphismInProsetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X80D74D0783D4D8F3">6.5-11 IsPosetOfCapCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X830354C981F5E506">6.5-12 IsCapCategoryCellInPosetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X807FE44483572073">6.5-13 IsCapCategoryObjectInPosetOfACategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6_mj.html#X7D7A87DB7BBB3ABC">6.5-14 IsCapCategoryMorphismInPosetOfACategory</a></span>
 </div></div>
 </div>
 
 <h3>6 <span class="Heading">The (stable) proset/poset of a category</span></h3>
 
-<p><a id="X7D03633A7D98026B" name="X7D03633A7D98026B"></a></p>
-
-<h4>6.1 <span class="Heading">GAP categories</span></h4>
-
-<p><a id="X7C307E3485AC0353" name="X7C307E3485AC0353"></a></p>
-
-<h5>6.1-1 IsProsetOrPosetOfCapCategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsProsetOrPosetOfCapCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of a proset or poset of a CAP category.</p>
-
-<p><a id="X7F2CA8BB84237268" name="X7F2CA8BB84237268"></a></p>
-
-<h5>6.1-2 IsCapCategoryCellInProsetOrPosetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInProsetOrPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of cells in a proset or poset of a CAP category.</p>
-
-<p><a id="X7C6C5A9F85D92E82" name="X7C6C5A9F85D92E82"></a></p>
-
-<h5>6.1-3 IsCapCategoryCellInStableProsetOrPosetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInStableProsetOrPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of cells in a stable proset or poset of a CAP category.</p>
-
-<p><a id="X79CE71268014E31A" name="X79CE71268014E31A"></a></p>
-
-<h5>6.1-4 IsCapCategoryObjectInProsetOrPosetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryObjectInProsetOrPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of objects in a proset or poset of a CAP category.</p>
-
-<p><a id="X7B1247F27EA3DC1C" name="X7B1247F27EA3DC1C"></a></p>
-
-<h5>6.1-5 IsProsetOfCapCategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsProsetOfCapCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of a proset of a CAP category.</p>
-
-<p><a id="X828326068126A01A" name="X828326068126A01A"></a></p>
-
-<h5>6.1-6 IsCapCategoryCellInProsetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInProsetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of cells in a proset of a CAP category.</p>
-
-<p><a id="X8563C9D57C4BAC79" name="X8563C9D57C4BAC79"></a></p>
-
-<h5>6.1-7 IsCapCategoryObjectInProsetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryObjectInProsetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of objects in a proset of a CAP category.</p>
-
-<p><a id="X85505F49791669CE" name="X85505F49791669CE"></a></p>
-
-<h5>6.1-8 IsCapCategoryMorphismInProsetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryMorphismInProsetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of morphisms in a proset of a CAP category.</p>
-
-<p><a id="X80D74D0783D4D8F3" name="X80D74D0783D4D8F3"></a></p>
-
-<h5>6.1-9 IsPosetOfCapCategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsPosetOfCapCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of a poset of a CAP category.</p>
-
-<p><a id="X830354C981F5E506" name="X830354C981F5E506"></a></p>
-
-<h5>6.1-10 IsCapCategoryCellInPosetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of cells in a poset of a CAP category.</p>
-
-<p><a id="X807FE44483572073" name="X807FE44483572073"></a></p>
-
-<h5>6.1-11 IsCapCategoryObjectInPosetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryObjectInPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of objects in a poset of a CAP category.</p>
-
-<p><a id="X7D7A87DB7BBB3ABC" name="X7D7A87DB7BBB3ABC"></a></p>
-
-<h5>6.1-12 IsCapCategoryMorphismInPosetOfACategory</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryMorphismInPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
-
-<p>The <strong class="pkg">GAP</strong> category of morphisms in a poset of a CAP category.</p>
-
 <p><a id="X7D9044767BEB1523" name="X7D9044767BEB1523"></a></p>
 
-<h4>6.2 <span class="Heading">Global variables</span></h4>
+<h4>6.1 <span class="Heading">Global variables</span></h4>
 
 <p><a id="X835CB9BA7B5D118D" name="X835CB9BA7B5D118D"></a></p>
 
-<h5>6.2-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY</h5>
+<h5>6.1-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY</code></td><td class="tdright">(&nbsp;global variable&nbsp;)</td></tr></table></div>
 <p><a id="X7C701DBF7BAE649A" name="X7C701DBF7BAE649A"></a></p>
 
-<h4>6.3 <span class="Heading">Attributes</span></h4>
+<h4>6.2 <span class="Heading">Attributes</span></h4>
 
 <p><a id="X811027AC7B5DEF11" name="X811027AC7B5DEF11"></a></p>
 
-<h5>6.3-1 UnderlyingCell</h5>
+<h5>6.2-1 UnderlyingCell</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingCell</code>( <var class="Arg">cell</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> cell</p>
@@ -216,7 +104,7 @@
 
 <p><a id="X85702AB27ADF48CA" name="X85702AB27ADF48CA"></a></p>
 
-<h5>6.3-2 AmbientCategory</h5>
+<h5>6.2-2 AmbientCategory</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AmbientCategory</code>( <var class="Arg">P</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a list</p>
@@ -225,65 +113,65 @@
 
 <p><a id="X86EC0F0A78ECBC10" name="X86EC0F0A78ECBC10"></a></p>
 
-<h4>6.4 <span class="Heading">Constructors</span></h4>
+<h4>6.3 <span class="Heading">Constructors</span></h4>
 
 <p><a id="X8049440E7EFD9EA3" name="X8049440E7EFD9EA3"></a></p>
 
-<h5>6.4-1 CreateProsetOrPosetOfCategory</h5>
+<h5>6.3-1 CreateProsetOrPosetOfCategory</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CreateProsetOrPosetOfCategory</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><a id="X7B09E9E07E77590E" name="X7B09E9E07E77590E"></a></p>
 
-<h5>6.4-2 ProsetOfCategory</h5>
+<h5>6.3-2 ProsetOfCategory</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ProsetOfCategory</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X8752F6307A2CC7FF" name="X8752F6307A2CC7FF"></a></p>
 
-<h5>6.4-3 StableProsetOfCategory</h5>
+<h5>6.3-3 StableProsetOfCategory</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; StableProsetOfCategory</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X7CED62D3823B3875" name="X7CED62D3823B3875"></a></p>
 
-<h5>6.4-4 PosetOfCategory</h5>
+<h5>6.3-4 PosetOfCategory</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; PosetOfCategory</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X7C510918829D2DAF" name="X7C510918829D2DAF"></a></p>
 
-<h5>6.4-5 StablePosetOfCategory</h5>
+<h5>6.3-5 StablePosetOfCategory</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; StablePosetOfCategory</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X83C7D92980FD8200" name="X83C7D92980FD8200"></a></p>
 
-<h5>6.4-6 AsCellOfProset</h5>
+<h5>6.3-6 AsCellOfProset</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AsCellOfProset</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X7F1751537AB8BFF5" name="X7F1751537AB8BFF5"></a></p>
 
-<h5>6.4-7 AsCellOfStableProset</h5>
+<h5>6.3-7 AsCellOfStableProset</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AsCellOfStableProset</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X80E0FC6A79F094D5" name="X80E0FC6A79F094D5"></a></p>
 
-<h5>6.4-8 AsCellOfPoset</h5>
+<h5>6.3-8 AsCellOfPoset</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AsCellOfPoset</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X7D18EFF57A55C225" name="X7D18EFF57A55C225"></a></p>
 
-<h5>6.4-9 AsCellOfStablePoset</h5>
+<h5>6.3-9 AsCellOfStablePoset</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AsCellOfStablePoset</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p><a id="X80BF5F0187E00004" name="X80BF5F0187E00004"></a></p>
 
-<h5>6.4-10 /</h5>
+<h5>6.3-10 /</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; /</code>( <var class="Arg">object</var>, <var class="Arg">P</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><a id="X7A489A5D79DA9E5C" name="X7A489A5D79DA9E5C"></a></p>
 
-<h4>6.5 <span class="Heading">Examples</span></h4>
+<h4>6.4 <span class="Heading">Examples</span></h4>
 
 <p><a id="X79AD216F87C9232C" name="X79AD216F87C9232C"></a></p>
 
-<h5>6.5-1 <span class="Heading">Ideal quotient</span></h5>
+<h5>6.4-1 <span class="Heading">Ideal quotient</span></h5>
 
 
 <div class="example"><pre>
@@ -447,9 +335,13 @@ true
 true
 </pre></div>
 
+<p><a id="X7D03633A7D98026B" name="X7D03633A7D98026B"></a></p>
+
+<h4>6.5 <span class="Heading">GAP categories</span></h4>
+
 <p><a id="X7881DF667EF49C5D" name="X7881DF667EF49C5D"></a></p>
 
-<h5>6.5-2 <span class="Heading">Poset of category</span></h5>
+<h5>6.5-1 <span class="Heading">Poset of category</span></h5>
 
 
 <div class="example"><pre>
@@ -517,7 +409,7 @@ true
 
 <p><a id="X7C1992657C3EAEDF" name="X7C1992657C3EAEDF"></a></p>
 
-<h5>6.5-3 <span class="Heading">Stable poset of category</span></h5>
+<h5>6.5-2 <span class="Heading">Stable poset of category</span></h5>
 
 
 <div class="example"><pre>
@@ -640,11 +532,119 @@ An object in the slice category given by: &lt;A morphism in Rows( Q[x,y] )&gt;
 true
 </pre></div>
 
+<p><a id="X7C307E3485AC0353" name="X7C307E3485AC0353"></a></p>
+
+<h5>6.5-3 IsProsetOrPosetOfCapCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsProsetOrPosetOfCapCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of a proset or poset of a CAP category.</p>
+
+<p><a id="X7F2CA8BB84237268" name="X7F2CA8BB84237268"></a></p>
+
+<h5>6.5-4 IsCapCategoryCellInProsetOrPosetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInProsetOrPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of cells in a proset or poset of a CAP category.</p>
+
+<p><a id="X7C6C5A9F85D92E82" name="X7C6C5A9F85D92E82"></a></p>
+
+<h5>6.5-5 IsCapCategoryCellInStableProsetOrPosetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInStableProsetOrPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of cells in a stable proset or poset of a CAP category.</p>
+
+<p><a id="X79CE71268014E31A" name="X79CE71268014E31A"></a></p>
+
+<h5>6.5-6 IsCapCategoryObjectInProsetOrPosetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryObjectInProsetOrPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of objects in a proset or poset of a CAP category.</p>
+
+<p><a id="X7B1247F27EA3DC1C" name="X7B1247F27EA3DC1C"></a></p>
+
+<h5>6.5-7 IsProsetOfCapCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsProsetOfCapCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of a proset of a CAP category.</p>
+
+<p><a id="X828326068126A01A" name="X828326068126A01A"></a></p>
+
+<h5>6.5-8 IsCapCategoryCellInProsetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInProsetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of cells in a proset of a CAP category.</p>
+
+<p><a id="X8563C9D57C4BAC79" name="X8563C9D57C4BAC79"></a></p>
+
+<h5>6.5-9 IsCapCategoryObjectInProsetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryObjectInProsetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of objects in a proset of a CAP category.</p>
+
+<p><a id="X85505F49791669CE" name="X85505F49791669CE"></a></p>
+
+<h5>6.5-10 IsCapCategoryMorphismInProsetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryMorphismInProsetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of morphisms in a proset of a CAP category.</p>
+
+<p><a id="X80D74D0783D4D8F3" name="X80D74D0783D4D8F3"></a></p>
+
+<h5>6.5-11 IsPosetOfCapCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsPosetOfCapCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of a poset of a CAP category.</p>
+
+<p><a id="X830354C981F5E506" name="X830354C981F5E506"></a></p>
+
+<h5>6.5-12 IsCapCategoryCellInPosetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryCellInPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of cells in a poset of a CAP category.</p>
+
+<p><a id="X807FE44483572073" name="X807FE44483572073"></a></p>
+
+<h5>6.5-13 IsCapCategoryObjectInPosetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryObjectInPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of objects in a poset of a CAP category.</p>
+
+<p><a id="X7D7A87DB7BBB3ABC" name="X7D7A87DB7BBB3ABC"></a></p>
+
+<h5>6.5-14 IsCapCategoryMorphismInPosetOfACategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryMorphismInPosetOfACategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of morphisms in a poset of a CAP category.</p>
+
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap5_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap7_mj.html">[Next Chapter]</a>&nbsp;  </div>
 
 
-<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chap14_mj.html">14</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chap4_mj.html">4</a>  <a href="chap5_mj.html">5</a>  <a href="chap6_mj.html">6</a>  <a href="chap7_mj.html">7</a>  <a href="chap8_mj.html">8</a>  <a href="chap9_mj.html">9</a>  <a href="chap10_mj.html">10</a>  <a href="chap11_mj.html">11</a>  <a href="chap12_mj.html">12</a>  <a href="chap13_mj.html">13</a>  <a href="chapInd_mj.html">Ind</a>  </div>
 
 <hr />
 <p class="foot">generated by <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>

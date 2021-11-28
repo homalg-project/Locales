@@ -2,110 +2,23 @@
   [1X6 [33X[0;0YThe (stable) proset/poset of a category[133X[101X
   
   
-  [1X6.1 [33X[0;0YGAP categories[133X[101X
+  [1X6.1 [33X[0;0YGlobal variables[133X[101X
   
-  [1X6.1-1 IsProsetOrPosetOfCapCategory[101X
-  
-  [33X[1;0Y[29X[2XIsProsetOrPosetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of a proset or poset of a CAP category.[133X
-  
-  [1X6.1-2 IsCapCategoryCellInProsetOrPosetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryCellInProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of cells in a proset or poset of a CAP category.[133X
-  
-  [1X6.1-3 IsCapCategoryCellInStableProsetOrPosetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryCellInStableProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of cells in a stable proset or poset of a CAP category.[133X
-  
-  [1X6.1-4 IsCapCategoryObjectInProsetOrPosetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryObjectInProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of objects in a proset or poset of a CAP category.[133X
-  
-  [1X6.1-5 IsProsetOfCapCategory[101X
-  
-  [33X[1;0Y[29X[2XIsProsetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of a proset of a CAP category.[133X
-  
-  [1X6.1-6 IsCapCategoryCellInProsetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryCellInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of cells in a proset of a CAP category.[133X
-  
-  [1X6.1-7 IsCapCategoryObjectInProsetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryObjectInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of objects in a proset of a CAP category.[133X
-  
-  [1X6.1-8 IsCapCategoryMorphismInProsetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryMorphismInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of morphisms in a proset of a CAP category.[133X
-  
-  [1X6.1-9 IsPosetOfCapCategory[101X
-  
-  [33X[1;0Y[29X[2XIsPosetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of a poset of a CAP category.[133X
-  
-  [1X6.1-10 IsCapCategoryCellInPosetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryCellInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of cells in a poset of a CAP category.[133X
-  
-  [1X6.1-11 IsCapCategoryObjectInPosetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryObjectInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of objects in a poset of a CAP category.[133X
-  
-  [1X6.1-12 IsCapCategoryMorphismInPosetOfACategory[101X
-  
-  [33X[1;0Y[29X[2XIsCapCategoryMorphismInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
-  
-  [33X[0;0YThe [5XGAP[105X category of morphisms in a poset of a CAP category.[133X
-  
-  
-  [1X6.2 [33X[0;0YGlobal variables[133X[101X
-  
-  [1X6.2-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY[101X
+  [1X6.1-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY[101X
   
   [33X[1;0Y[29X[2XCAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY[102X [32X global variable[133X
   
   
-  [1X6.3 [33X[0;0YAttributes[133X[101X
+  [1X6.2 [33X[0;0YAttributes[133X[101X
   
-  [1X6.3-1 UnderlyingCell[101X
+  [1X6.2-1 UnderlyingCell[101X
   
   [33X[1;0Y[29X[2XUnderlyingCell[102X( [3Xcell[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X cell[133X
   
   [33X[0;0YThe cell in the ambient category underlying [3Xcell[103X.[133X
   
-  [1X6.3-2 AmbientCategory[101X
+  [1X6.2-2 AmbientCategory[101X
   
   [33X[1;0Y[29X[2XAmbientCategory[102X( [3XP[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya list[133X
@@ -113,53 +26,53 @@
   [33X[0;0YThe ambient category of the proset [3XP[103X.[133X
   
   
-  [1X6.4 [33X[0;0YConstructors[133X[101X
+  [1X6.3 [33X[0;0YConstructors[133X[101X
   
-  [1X6.4-1 CreateProsetOrPosetOfCategory[101X
+  [1X6.3-1 CreateProsetOrPosetOfCategory[101X
   
   [33X[1;0Y[29X[2XCreateProsetOrPosetOfCategory[102X( [3XC[103X ) [32X operation[133X
   
-  [1X6.4-2 ProsetOfCategory[101X
+  [1X6.3-2 ProsetOfCategory[101X
   
   [33X[1;0Y[29X[2XProsetOfCategory[102X( [3XC[103X ) [32X attribute[133X
   
-  [1X6.4-3 StableProsetOfCategory[101X
+  [1X6.3-3 StableProsetOfCategory[101X
   
   [33X[1;0Y[29X[2XStableProsetOfCategory[102X( [3XC[103X ) [32X attribute[133X
   
-  [1X6.4-4 PosetOfCategory[101X
+  [1X6.3-4 PosetOfCategory[101X
   
   [33X[1;0Y[29X[2XPosetOfCategory[102X( [3XC[103X ) [32X attribute[133X
   
-  [1X6.4-5 StablePosetOfCategory[101X
+  [1X6.3-5 StablePosetOfCategory[101X
   
   [33X[1;0Y[29X[2XStablePosetOfCategory[102X( [3XC[103X ) [32X attribute[133X
   
-  [1X6.4-6 AsCellOfProset[101X
+  [1X6.3-6 AsCellOfProset[101X
   
   [33X[1;0Y[29X[2XAsCellOfProset[102X( [3Xc[103X ) [32X attribute[133X
   
-  [1X6.4-7 AsCellOfStableProset[101X
+  [1X6.3-7 AsCellOfStableProset[101X
   
   [33X[1;0Y[29X[2XAsCellOfStableProset[102X( [3Xc[103X ) [32X attribute[133X
   
-  [1X6.4-8 AsCellOfPoset[101X
+  [1X6.3-8 AsCellOfPoset[101X
   
   [33X[1;0Y[29X[2XAsCellOfPoset[102X( [3Xc[103X ) [32X attribute[133X
   
-  [1X6.4-9 AsCellOfStablePoset[101X
+  [1X6.3-9 AsCellOfStablePoset[101X
   
   [33X[1;0Y[29X[2XAsCellOfStablePoset[102X( [3Xc[103X ) [32X attribute[133X
   
-  [1X6.4-10 /[101X
+  [1X6.3-10 /[101X
   
   [33X[1;0Y[29X[2X/[102X( [3Xobject[103X, [3XP[103X ) [32X operation[133X
   
   
-  [1X6.5 [33X[0;0YExamples[133X[101X
+  [1X6.4 [33X[0;0YExamples[133X[101X
   
   
-  [1X6.5-1 [33X[0;0YIdeal quotient[133X[101X
+  [1X6.4-1 [33X[0;0YIdeal quotient[133X[101X
   
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27XLoadPackage( "FreydCategoriesForCAP" );[127X[104X
@@ -321,7 +234,10 @@
   [4X[32X[104X
   
   
-  [1X6.5-2 [33X[0;0YPoset of category[133X[101X
+  [1X6.5 [33X[0;0YGAP categories[133X[101X
+  
+  
+  [1X6.5-1 [33X[0;0YPoset of category[133X[101X
   
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.10-02" );[127X[104X
@@ -387,7 +303,7 @@
   [4X[32X[104X
   
   
-  [1X6.5-3 [33X[0;0YStable poset of category[133X[101X
+  [1X6.5-2 [33X[0;0YStable poset of category[133X[101X
   
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27XLoadPackage( "SubcategoriesForCAP", ">= 2020.10-02" );[127X[104X
@@ -507,4 +423,88 @@
     [4X[25Xgap>[125X [27XIJJsJ = I;[127X[104X
     [4X[28Xtrue[128X[104X
   [4X[32X[104X
+  
+  [1X6.5-3 IsProsetOrPosetOfCapCategory[101X
+  
+  [33X[1;0Y[29X[2XIsProsetOrPosetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of a proset or poset of a CAP category.[133X
+  
+  [1X6.5-4 IsCapCategoryCellInProsetOrPosetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryCellInProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of cells in a proset or poset of a CAP category.[133X
+  
+  [1X6.5-5 IsCapCategoryCellInStableProsetOrPosetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryCellInStableProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of cells in a stable proset or poset of a CAP category.[133X
+  
+  [1X6.5-6 IsCapCategoryObjectInProsetOrPosetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryObjectInProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of objects in a proset or poset of a CAP category.[133X
+  
+  [1X6.5-7 IsProsetOfCapCategory[101X
+  
+  [33X[1;0Y[29X[2XIsProsetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of a proset of a CAP category.[133X
+  
+  [1X6.5-8 IsCapCategoryCellInProsetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryCellInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of cells in a proset of a CAP category.[133X
+  
+  [1X6.5-9 IsCapCategoryObjectInProsetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryObjectInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of objects in a proset of a CAP category.[133X
+  
+  [1X6.5-10 IsCapCategoryMorphismInProsetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryMorphismInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of morphisms in a proset of a CAP category.[133X
+  
+  [1X6.5-11 IsPosetOfCapCategory[101X
+  
+  [33X[1;0Y[29X[2XIsPosetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of a poset of a CAP category.[133X
+  
+  [1X6.5-12 IsCapCategoryCellInPosetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryCellInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of cells in a poset of a CAP category.[133X
+  
+  [1X6.5-13 IsCapCategoryObjectInPosetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryObjectInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of objects in a poset of a CAP category.[133X
+  
+  [1X6.5-14 IsCapCategoryMorphismInPosetOfACategory[101X
+  
+  [33X[1;0Y[29X[2XIsCapCategoryMorphismInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of morphisms in a poset of a CAP category.[133X
   
