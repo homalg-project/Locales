@@ -427,84 +427,84 @@
   [1X6.5-3 IsProsetOrPosetOfCapCategory[101X
   
   [33X[1;0Y[29X[2XIsProsetOrPosetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of a proset or poset of a CAP category.[133X
   
   [1X6.5-4 IsCapCategoryCellInProsetOrPosetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryCellInProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of cells in a proset or poset of a CAP category.[133X
   
   [1X6.5-5 IsCapCategoryCellInStableProsetOrPosetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryCellInStableProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of cells in a stable proset or poset of a CAP category.[133X
   
   [1X6.5-6 IsCapCategoryObjectInProsetOrPosetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryObjectInProsetOrPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a proset or poset of a CAP category.[133X
   
   [1X6.5-7 IsProsetOfCapCategory[101X
   
   [33X[1;0Y[29X[2XIsProsetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of a proset of a CAP category.[133X
   
   [1X6.5-8 IsCapCategoryCellInProsetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryCellInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of cells in a proset of a CAP category.[133X
   
   [1X6.5-9 IsCapCategoryObjectInProsetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryObjectInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a proset of a CAP category.[133X
   
   [1X6.5-10 IsCapCategoryMorphismInProsetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryMorphismInProsetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of morphisms in a proset of a CAP category.[133X
   
   [1X6.5-11 IsPosetOfCapCategory[101X
   
   [33X[1;0Y[29X[2XIsPosetOfCapCategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of a poset of a CAP category.[133X
   
   [1X6.5-12 IsCapCategoryCellInPosetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryCellInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of cells in a poset of a CAP category.[133X
   
   [1X6.5-13 IsCapCategoryObjectInPosetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryObjectInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a poset of a CAP category.[133X
   
   [1X6.5-14 IsCapCategoryMorphismInPosetOfACategory[101X
   
   [33X[1;0Y[29X[2XIsCapCategoryMorphismInPosetOfACategory[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of morphisms in a poset of a CAP category.[133X
   

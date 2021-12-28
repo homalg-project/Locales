@@ -44,7 +44,7 @@
   [1X10.2-1 IsOpen[101X
   
   [33X[1;0Y[29X[2XIsOpen[102X( [3XA[103X ) [32X property[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [1X10.2-2 IsClosed[101X
   
@@ -53,7 +53,7 @@
   [1X10.2-3 IsLocallyClosed[101X
   
   [33X[1;0Y[29X[2XIsLocallyClosed[102X( [3XA[103X ) [32X property[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   
   [1X10.3 [33X[0;0YAttributes[133X[101X
@@ -157,28 +157,28 @@
   [1X10.5-1 IsBooleanAlgebraOfConstructibleObjects[101X
   
   [33X[1;0Y[29X[2XIsBooleanAlgebraOfConstructibleObjects[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of a Boolean algebra of constructible objects.[133X
   
   [1X10.5-2 IsConstructibleObject[101X
   
   [33X[1;0Y[29X[2XIsConstructibleObject[102X( [3Xobject[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a Boolean algebra of constructible objects.[133X
   
   [1X10.5-3 IsMorphismBetweenConstructibleObjects[101X
   
   [33X[1;0Y[29X[2XIsMorphismBetweenConstructibleObjects[102X( [3Xmorphism[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of morphisms in a Boolean algebra of constructible objects.[133X
   
   [1X10.5-4 IsBooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences[101X
   
   [33X[1;0Y[29X[2XIsBooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe  [5XGAP[105X  category of a Boolean algebra of constructible objects as union of
   multiple differences.[133X
@@ -186,21 +186,21 @@
   [1X10.5-5 IsConstructibleObjectAsUnionOfMultipleDifferences[101X
   
   [33X[1;0Y[29X[2XIsConstructibleObjectAsUnionOfMultipleDifferences[102X( [3Xobject[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in ...[133X
   
   [1X10.5-6 IsMorphismBetweenConstructibleObjectsAsUnionOfMultipleDifferences[101X
   
   [33X[1;0Y[29X[2XIsMorphismBetweenConstructibleObjectsAsUnionOfMultipleDifferences[102X( [3Xmorphism[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of morphisms in ...[133X
   
   [1X10.5-7 IsBooleanAlgebraOfConstructibleObjectsAsUnionOfSingleDifferences[101X
   
   [33X[1;0Y[29X[2XIsBooleanAlgebraOfConstructibleObjectsAsUnionOfSingleDifferences[102X( [3Xarg[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe  [5XGAP[105X  category of a Boolean algebra of constructible objects as union of
   single differences.[133X
@@ -208,7 +208,7 @@
   [1X10.5-8 IsConstructibleObjectAsUnionOfSingleDifferences[101X
   
   [33X[1;0Y[29X[2XIsConstructibleObjectAsUnionOfSingleDifferences[102X( [3Xobject[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe  [5XGAP[105X  category of objects in a Boolean algebra of constructible objects,
   the latter as unions of formal single differences.[133X
@@ -216,7 +216,7 @@
   [1X10.5-9 IsMorphismBetweenConstructibleObjectsAsUnionOfDifferences[101X
   
   [33X[1;0Y[29X[2XIsMorphismBetweenConstructibleObjectsAsUnionOfDifferences[102X( [3Xmorphism[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of morphisms in a Boolean algebra of constructible objects,
   the latter as unions of formal single differences.[133X
