@@ -7,10 +7,10 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2022.01-01
+                                   2022.01-02
   
   
-                                23 January 2022
+                                27 January 2022
   
   
                                 Mohamed Barakat
@@ -111,8 +111,8 @@
     6.1 [33X[0;0YGlobal variables[133X
       6.1-1 CAP_INTERNAL_METHOD_NAME_LIST_FOR_PREORDERED_SET_OF_CATEGORY
     6.2 [33X[0;0YAttributes[133X
-      6.2-1 UnderlyingCell
-      6.2-2 AmbientCategory
+      6.2-1 AmbientCategory
+      6.2-2 UnderlyingCell
     6.3 [33X[0;0YConstructors[133X
       6.3-1 CreateProsetOrPosetOfCategory
       6.3-2 ProsetOfCategory
