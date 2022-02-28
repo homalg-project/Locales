@@ -55,7 +55,6 @@ true
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring", "matrix" ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "HomalgIdentityMatrix( size, ring ) * matrix",</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "matrix",</span>
-<span class="GAPprompt">&gt;</span> <span class="GAPinput">        returns_value := true,</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
@@ -65,7 +64,6 @@ true
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring", "matrix" ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "matrix * HomalgIdentityMatrix( size, ring )",</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "matrix",</span>
-<span class="GAPprompt">&gt;</span> <span class="GAPinput">        returns_value := true,</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
@@ -75,7 +73,6 @@ true
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "ring", "matrix" ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "KroneckerMat( matrix, HomalgIdentityMatrix( 1, ring ) )",</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "matrix",</span>
-<span class="GAPprompt">&gt;</span> <span class="GAPinput">        returns_value := true,</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
@@ -85,7 +82,6 @@ true
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring" ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "TransposedMatrix( HomalgIdentityMatrix( size, ring ) )",</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "HomalgIdentityMatrix( size, ring )",</span>
-<span class="GAPprompt">&gt;</span> <span class="GAPinput">        returns_value := true,</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
@@ -95,7 +91,6 @@ true
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring", "matrix" ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "KroneckerMat( HomalgIdentityMatrix( size, ring ), matrix )",</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "DiagMat( ring, ListWithIdenticalEntries( size, matrix ) )",</span>
-<span class="GAPprompt">&gt;</span> <span class="GAPinput">        returns_value := true,</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
