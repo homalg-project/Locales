@@ -92,7 +92,7 @@
   [2XIsMorphismInMeetSemilatticeOfDifferences[102X, for IsMorphismInThinCategory 13.1-3 
   [2XIsMorphismInMeetSemilatticeOfMultipleDifferences[102X, for IsMorphismInMeetSemilatticeOfDifferences 9.4-3 
   [2XIsMorphismInMeetSemilatticeOfSingleDifferences[102X, for IsMorphismInMeetSemilatticeOfDifferences 8.3-3 
-  [2XIsMorphismInThinCategory[102X, for IsCapCategoryMorphism 1.5-2 
+  [2XIsMorphismInThinCategory[102X, for IsCapCategoryMorphism and IsMonomorphism and IsEpimorphism 1.5-2 
   [2XIsNodeInDatastructureOfConstructibleObjects[102X, for IsAttributeStoringRep 11.4-2 
   [2XIsObjectInMeetSemilatticeOfDifferences[102X, for IsObjectInThinCategory 13.1-2 
   [2XIsObjectInMeetSemilatticeOfMultipleDifferences[102X, for IsObjectInMeetSemilatticeOfDifferences 9.4-2 
