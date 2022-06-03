@@ -83,7 +83,7 @@
   [2XIsHomSetInhabited[102X, for IsNodeInDatastructureOfConstructibleObjects, IsNodeInDatastructureOfConstructibleObjects 11.3-4 
   [2XIsLocallyClosed[102X, for IsConstructibleObject 10.2-3 
       for IsObjectInMeetSemilatticeOfDifferences 13.2-3 
-  [2XIsMeetSemilatticeOfDifferences[102X, for IsThinCategory 13.1-1 
+  [2XIsMeetSemilatticeOfDifferences[102X, for IsCapCategory and IsThinCategory 13.1-1 
   [2XIsMeetSemilatticeOfMultipleDifferences[102X, for IsMeetSemilatticeOfDifferences 9.4-1 
   [2XIsMeetSemilatticeOfSingleDifferences[102X, for IsMeetSemilatticeOfDifferences 8.3-1 
   [2XIsMorphismBetweenConstructibleObjects[102X, for IsMorphismInThinCategory 10.5-3 
