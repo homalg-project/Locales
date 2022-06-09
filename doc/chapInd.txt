@@ -60,7 +60,7 @@
   [2XFormalDifferenceOfNormalizedObjects[102X, for IsObjectInThinCategory, IsObjectInThinCategory 8.1-2 
   [2XInfoLocales[102X 1.1-1 
   [2XInfoSquashDatastructureForConstructibleObjects[102X 11.1-1 
-  [2XIsBooleanAlgebraOfConstructibleObjects[102X, for IsThinCategory 10.5-1 
+  [2XIsBooleanAlgebraOfConstructibleObjects[102X, for IsCapCategory and IsThinCategory 10.5-1 
   [2XIsBooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences[102X, for IsBooleanAlgebraOfConstructibleObjects 10.5-4 
   [2XIsBooleanAlgebraOfConstructibleObjectsAsUnionOfSingleDifferences[102X, for IsBooleanAlgebraOfConstructibleObjects 10.5-7 
   [2XIsCapCategoryCellInPosetOfACategory[102X, for IsCapCategoryCellInProsetOrPosetOfACategory 6.5-12 
