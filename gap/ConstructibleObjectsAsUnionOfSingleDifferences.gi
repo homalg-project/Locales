@@ -39,7 +39,7 @@ InstallMethod( BooleanAlgebraOfConstructibleObjectsAsUnionOfDifferences,
         [ IsCapCategory and IsThinCategory ],
         
   function( P )
-    local name, C, BinaryDirectProduct;
+    local name, C;
     
     name := "The Boolean algebra of constructible objects as unions of formal single differences of ";
     
@@ -119,32 +119,20 @@ InstallMethod( BooleanAlgebraOfConstructibleObjectsAsUnionOfDifferences,
         
     end );
     
-    BinaryDirectProduct := function( cat, A, B )
-        local D, L, l, I, U;
-
-        #% CAP_JIT_RESOLVE_FUNCTION
-        
-        D := UnderlyingMeetSemilatticeOfDifferences( CapCategory( A ) );
-        
-        L := [ List( A ), List( B ) ];
-        
-        l := [ 1, 2 ];
-        
-        ## TODO: replace Cartesian -> IteratorOfCartesianProduct once GAP supports List with an iterator as 1st argument
-        I := Cartesian( List( L, a -> [ 1 .. Length( a ) ] ) );
-        
-        ## the distributive law
-        U := List( I, i -> DirectProduct( D, List( l, j -> L[j][i[j]] ) ) );
-        
-        return UnionOfListOfDifferences( cat, U );
-        
-    end;
-    
     ##
     AddDirectProduct( C,
       function( cat, L )
+        local D, I, U;
         
-        return Iterated( L, { A, B } -> BinaryDirectProduct( cat, A, B ) );
+        D := UnderlyingMeetSemilatticeOfDifferences( cat );
+        
+        ## TODO: replace Cartesian -> IteratorOfCartesianProduct once GAP supports List with an iterator as 1st argument
+        I := Cartesian( List( L, List ) );
+        
+        ## the distributive law
+        U := List( I, L -> DirectProduct( D, L ) );
+        
+        return UnionOfListOfDifferences( cat, U );
         
     end );
     
