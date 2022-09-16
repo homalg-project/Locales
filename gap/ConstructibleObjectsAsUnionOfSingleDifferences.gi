@@ -502,10 +502,11 @@ InstallMethod( \-,
     
 end );
 
-##
+## now that IsObjectInMeetSemilatticeOfMultipleDifferences lies in the filter IsLocallyClosed
+## the weight below is necessary to be higher than the above method for [ IsObjectInThinCategory, IsObjectInMeetSemilatticeOfSingleDifferences ]
 InstallMethod( \-,
         "for a constructible object as a union of formal single differences and an object in a thin category",
-        [ IsConstructibleObjectAsUnionOfSingleDifferences, IsObjectInThinCategory ],
+        [ IsConstructibleObjectAsUnionOfSingleDifferences, IsObjectInThinCategory ], 100001,
         
   function( A, B )
     

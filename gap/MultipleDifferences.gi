@@ -163,8 +163,7 @@ InstallGlobalFunction( AsMultipleDifferenceOfNormalizedObjects,
     D := MeetSemilatticeOfMultipleDifferences( CapCategory( PairInUnderlyingLattice( arg[1] )[1] ) );
     
     A := CreateCapCategoryObjectWithAttributes( D,
-                 ListOfNormalizedObjectsInMeetSemilatticeOfDifferences, arg,
-                 IsLocallyClosed, true );
+                 ListOfNormalizedObjectsInMeetSemilatticeOfDifferences, arg );
     
     Assert( 4, IsWellDefined( A ) );
     

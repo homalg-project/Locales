@@ -17,7 +17,7 @@ DeclareCategory( "IsMeetSemilatticeOfMultipleDifferences",
 #!  The &GAP; category of objects in a meet-semilattice of multiple differences.
 #! @Arguments object
 DeclareCategory( "IsObjectInMeetSemilatticeOfMultipleDifferences",
-        IsObjectInMeetSemilatticeOfDifferences );
+        IsObjectInMeetSemilatticeOfDifferences and IsLocallyClosed );
 
 #! @Description
 #!  The &GAP; category of morphisms in a meet-semilattice of multiple differences.
