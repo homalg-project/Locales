@@ -22,9 +22,105 @@
 <p id="mathjaxlink" class="pcenter"><a href="chap12_mj.html">[MathJax on]</a></p>
 <p><a id="X7A810CDA83F2897F" name="X7A810CDA83F2897F"></a></p>
 <div class="ChapSects"><a href="chap12.html#X7A810CDA83F2897F">12 <span class="Heading">Tests</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap12.html#X7D03633A7D98026B">12.1 <span class="Heading">GAP Categories</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12.html#X7D7026828261C26B">12.1-1 <span class="Heading">Precompilation</span></a>
+</span>
+</div></div>
 </div>
 
 <h3>12 <span class="Heading">Tests</span></h3>
+
+<p><a id="X7D03633A7D98026B" name="X7D03633A7D98026B"></a></p>
+
+<h4>12.1 <span class="Heading">GAP Categories</span></h4>
+
+<p><a id="X7D7026828261C26B" name="X7D7026828261C26B"></a></p>
+
+<h5>12.1-1 <span class="Heading">Precompilation</span></h5>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "Locales", false );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "SubcategoriesForCAP", false );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "FreydCategoriesForCAP", "&gt;= 2021.10-03", false );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ZZ := HomalgRingOfIntegers( );;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># HomalgIdentityMatrix( size, ring ) * matrix -&gt; matrix</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">CapJitAddLogicTemplate(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    rec(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring", "matrix" ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "HomalgIdentityMatrix( size, ring ) * matrix",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "matrix",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># matrix * HomalgIdentityMatrix( size, ring ) -&gt; matrix</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">CapJitAddLogicTemplate(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    rec(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring", "matrix" ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "matrix * HomalgIdentityMatrix( size, ring )",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "matrix",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># KroneckerMat( matrix, HomalgIdentityMatrix( 1, ring ) ) -&gt; matrix</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">CapJitAddLogicTemplate(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    rec(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "ring", "matrix" ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "KroneckerMat( matrix, HomalgIdentityMatrix( 1, ring ) )",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "matrix",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># TransposedMatrix( HomalgIdentityMatrix( size, ring ) ) -&gt; HomalgIdentityMatrix( size, ring )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">CapJitAddLogicTemplate(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    rec(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring" ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "TransposedMatrix( HomalgIdentityMatrix( size, ring ) )",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "HomalgIdentityMatrix( size, ring )",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># KroneckerMat( HomalgIdentityMatrix( size, ring ), matrix )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">CapJitAddLogicTemplate(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    rec(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        variable_names := [ "size", "ring", "matrix" ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        src_template := "KroneckerMat( HomalgIdentityMatrix( size, ring ), matrix )",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        dst_template := "DiagMat( ring, ListWithIdenticalEntries( size, matrix ) )",</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">        needed_packages := [ [ "MatricesForHomalg", "&gt;= 2020.05.19" ] ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">);</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput"># we have to work hard to not write semicolons so AutoDoc</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput"># does not begin a new statement</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">category_constructor := EvalString( ReplacedString( """function( R )</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">  local F, S, P, L@</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    </span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    F := CategoryOfRows( R : FinalizeCategory := true )@</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    S := SliceCategoryOverTensorUnit( F : FinalizeCategory := true )@</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    P := PosetOfCategory( S : FinalizeCategory := true )@</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    L := StablePosetOfCategory( P )@</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    SetIsCocartesianCoclosedCategory( L, true )@</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    </span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    return L@</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    </span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">end""", "@", ";" ) );;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">given_arguments := [ ZZ ];;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">compiled_category_name := "StablePosetOfCategoryOfPosetOfCategoryOfSliceCategoryOverTensorUnitOfCategoryOfRowsOfCommutativeRingPrecompiled";;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">package_name := "Locales";;</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">CapJitPrecompileCategoryAndCompareResult(</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    category_constructor,</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    given_arguments,</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    package_name,</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    compiled_category_name :</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    operations := [ "ExponentialOnObjects" ],</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    number_of_objectified_objects_in_data_structure_of_object := 5,</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">    number_of_objectified_morphisms_in_data_structure_of_object := 1</span>
+<span class="GAPprompt">&gt;</span> <span class="GAPinput">);;</span>
+</pre></div>
 
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap11.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap13.html">[Next Chapter]</a>&nbsp;  </div>

@@ -7,10 +7,10 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2022.09-18
+                                   2022.09-23
   
   
-                               19 September 2022
+                               21 September 2022
   
   
                                 Mohamed Barakat
@@ -169,7 +169,7 @@
     9.2 [33X[0;0YAttributes[133X
       9.2-1 AsSingleDifference
     9.3 [33X[0;0YOperations[133X
-      9.3-1 ListOfObjectsOfDifferences
+      9.3-1 ListOfSingleDifferences
       9.3-2 \[\]
     9.4 [33X[0;0YGAP Categories[133X
       9.4-1 IsMeetSemilatticeOfMultipleDifferences
@@ -239,6 +239,8 @@
       11.4-1 IsDatastructureForConstructibleObjects
       11.4-2 IsNodeInDatastructureOfConstructibleObjects
   12 [33X[0;0YTests[133X
+    12.1 [33X[0;0YGAP Categories[133X
+      12.1-1 [33X[0;0YPrecompilation[133X
   13 [33X[0;0YMeet-semilattice of single/multiple differences[133X
     13.1 [33X[0;0YGAP Categories[133X
       13.1-1 IsMeetSemilatticeOfDifferences

@@ -29,8 +29,8 @@
   [33X[1;0Y[29X[2XPairInUnderlyingLattice[102X( [3XA[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya pair of objects in a thin category[133X
   
-  [33X[0;0YA  morphism  in  the  underlying  lattice  representing  the  formal  single
-  difference [3XA[103X.[133X
+  [33X[0;0YA  pair  in the underlying lattice representing the formal single difference
+  [3XA[103X.[133X
   
   [1X8.2-2 DistinguishedSubtrahend[101X
   
