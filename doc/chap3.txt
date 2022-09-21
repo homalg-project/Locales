@@ -1,7 +1,8 @@
   
   [1X3 [33X[0;0YLattices[133X[101X
   
-  [33X[0;0YLattices are finite complete, finite cocomplete, skeletal, thin categories.[133X
+  [33X[0;0YLattices  are  thin,  finite  cartesian  (and hence finite complete), finite
+  cocartesian (and hence finite cocomplete), skeletal categories.[133X
   
   
   [1X3.1 [33X[0;0YAttributes[133X[101X
