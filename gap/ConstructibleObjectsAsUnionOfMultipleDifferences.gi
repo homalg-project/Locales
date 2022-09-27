@@ -19,7 +19,7 @@ InstallMethodForCompilerForCAP( IsHomSetInhabitedWithTypeCast,
     ap := Apair[2];
     a := Apair[1];
     
-    Bpairs := List( List( B, AsSingleDifference ), PairInUnderlyingLattice );
+    Bpairs := List( ListOfObjectsInMeetSemilatticeOfMultipleDifferences( B, AsSingleDifference ), PairInUnderlyingLattice );
     
     bp := List( Bpairs, a -> a[2] );
     b := List( Bpairs, a -> a[1] );
@@ -81,7 +81,7 @@ InstallMethod( BooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences,
         
         D := UnderlyingMeetSemilatticeOfMultipleDifferences( cat );
         
-        return ForAll( List( A ), M -> IsWellDefinedForObjects( D, M ) );
+        return ForAll( ListOfObjectsInMeetSemilatticeOfMultipleDifferences( A ), M -> IsWellDefinedForObjects( D, M ) );
         
     end );
     
@@ -92,7 +92,7 @@ InstallMethod( BooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences,
         
         D := UnderlyingMeetSemilatticeOfMultipleDifferences( cat );
         
-        return ForAll( List( A ), M -> IsHomSetInhabitedWithTypeCast( D, M, B ) );
+        return ForAll( ListOfObjectsInMeetSemilatticeOfMultipleDifferences( A ), M -> IsHomSetInhabitedWithTypeCast( D, M, B ) );
         
     end );
     
@@ -125,7 +125,7 @@ InstallMethod( BooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences,
         
         D := UnderlyingMeetSemilatticeOfMultipleDifferences( cat );
         
-        return ForAll( List( A ), M -> IsInitial( D, M ) );
+        return ForAll( ListOfObjectsInMeetSemilatticeOfMultipleDifferences( A ), M -> IsInitial( D, M ) );
         
     end );
     
