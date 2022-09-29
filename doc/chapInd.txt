@@ -30,7 +30,6 @@
   [2XAsCellOfStablePoset[102X, for IsCapCategoryCell 6.3-9 
   [2XAsCellOfStableProset[102X, for IsCapCategoryCell 6.3-7 
   [2XAsMultipleDifference[102X 9.1-2 
-  [2XAsMultipleDifferenceOfNormalizedObjects[102X 9.1-2 
   [2XAsSingleDifference[102X, for IsObjectInMeetSemilatticeOfMultipleDifferences 9.2-1 
   [2XAsUnionOfMultipleDifferences[102X, for IsDatastructureForConstructibleObjects 11.3-9 
   [2XAttach[102X, for IsNodeInDatastructureOfConstructibleObjects, IsObjectInThinCategory, IsList 11.2-3 
@@ -150,7 +149,6 @@
   [2XUnionOfDifferences[102X 10.1-4 
   [2XUnionOfDifferencesOfNormalizedObjects[102X 10.1-4 
   [2XUnionOfMultipleDifferences[102X 10.1-2 
-  [2XUnionOfMultipleDifferencesOfNormalizedObjects[102X 10.1-2 
   [2XUniqueMorphism[102X, for IsCapCategoryObject, IsCapCategoryObject 1.2-1 
   [2XVisualize[102X, for IsDatastructureForConstructibleObjects 11.3-12 
   

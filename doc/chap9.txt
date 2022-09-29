@@ -14,12 +14,10 @@
   [1X9.1-2 AsMultipleDifference[101X
   
   [33X[1;0Y[29X[2XAsMultipleDifference[102X( [3XD1[103X, [3XD2[103X, [3X...[103X ) [32X function[133X
-  [33X[1;0Y[29X[2XAsMultipleDifferenceOfNormalizedObjects[102X( [3XD1[103X, [3XD2[103X, [3X...[103X ) [32X function[133X
   [6XReturns:[106X  [33X[0;10Yan object in a [5XCAP[105X category[133X
   
   [33X[0;0YIf  [3XD1[103X=[22XA1-B1[122X,  [3XD2[103X=[22XA2-B2[122X,  ..., then the output is [10XDirectProduct[110X[22X(A1,A2,...)[122X -
-  [10XCoproduct[110X[22X(B1,B2,...)[122X. [10XAsMultipleDifferenceOfNormalizedMorphisms[110X assumes that
-  the input is normalized.[133X
+  [10XCoproduct[110X[22X(B1,B2,...)[122X.[133X
   
   
   [1X9.2 [33X[0;0YAttributes[133X[101X
