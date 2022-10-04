@@ -106,6 +106,6 @@
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XMorphismFromDoubleConegationWithGivenDoubleConegation[110X.  [23XF:  ( a, r ) \mapsto
-  \mathtt{MorphismFromDoubleConegationWithGivenDoubleConegation}(a, r)[123X.[133X
+  [10XMorphismFromDoubleConegationWithGivenDoubleConegation[110X.  [23XF:  ( a, s ) \mapsto
+  \mathtt{MorphismFromDoubleConegationWithGivenDoubleConegation}(a, s)[123X.[133X
   

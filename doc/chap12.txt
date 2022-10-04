@@ -69,7 +69,6 @@
     [4X[25X>[125X [27X    S := SliceCategoryOverTensorUnit( F : FinalizeCategory := true )@[127X[104X
     [4X[25X>[125X [27X    P := PosetOfCategory( S : FinalizeCategory := true )@[127X[104X
     [4X[25X>[125X [27X    L := StablePosetOfCategory( P )@[127X[104X
-    [4X[25X>[125X [27X    SetIsCocartesianCoclosedCategory( L, true )@[127X[104X
     [4X[25X>[125X [27X    [127X[104X
     [4X[25X>[125X [27X    return L@[127X[104X
     [4X[25X>[125X [27X    [127X[104X

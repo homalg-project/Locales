@@ -36,8 +36,10 @@
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap7_mj.html#X85C8C80F785AEB5E">7.2 <span class="Heading">Add-methods</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap7_mj.html#X7D0626598578D4CA">7.2-1 AddMorphismFromDoubleNegationWithGivenDoubleNegation</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap7_mj.html#X7A4DD8CD7C42B2AA">7.2-2 AddMorphismToDoubleConegationWithGivenDoubleConegation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap7_mj.html#X82AD6F147D5FEDF7">7.2-1 AddMorphismFromDoubleNegation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap7_mj.html#X7D0626598578D4CA">7.2-2 AddMorphismFromDoubleNegationWithGivenDoubleNegation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap7_mj.html#X7B97B14585A8E5B4">7.2-3 AddMorphismToDoubleConegation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap7_mj.html#X7A4DD8CD7C42B2AA">7.2-4 AddMorphismToDoubleConegationWithGivenDoubleConegation</a></span>
 </div></div>
 </div>
 
@@ -87,23 +89,41 @@
 
 <h4>7.2 <span class="Heading">Add-methods</span></h4>
 
+<p><a id="X82AD6F147D5FEDF7" name="X82AD6F147D5FEDF7"></a></p>
+
+<h5>7.2-1 AddMorphismFromDoubleNegation</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismFromDoubleNegation</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismFromDoubleNegation</code>. <span class="SimpleMath">\(F: ( a ) \mapsto \mathtt{MorphismFromDoubleNegation}(a)\)</span>.</p>
+
 <p><a id="X7D0626598578D4CA" name="X7D0626598578D4CA"></a></p>
 
-<h5>7.2-1 AddMorphismFromDoubleNegationWithGivenDoubleNegation</h5>
+<h5>7.2-2 AddMorphismFromDoubleNegationWithGivenDoubleNegation</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismFromDoubleNegationWithGivenDoubleNegation</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: nothing</p>
 
 <p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismFromDoubleNegationWithGivenDoubleNegation</code>. <span class="SimpleMath">\(F: ( a, s ) \mapsto \mathtt{MorphismFromDoubleNegationWithGivenDoubleNegation}(a, s)\)</span>.</p>
 
+<p><a id="X7B97B14585A8E5B4" name="X7B97B14585A8E5B4"></a></p>
+
+<h5>7.2-3 AddMorphismToDoubleConegation</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismToDoubleConegation</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismToDoubleConegation</code>. <span class="SimpleMath">\(F: ( a ) \mapsto \mathtt{MorphismToDoubleConegation}(a)\)</span>.</p>
+
 <p><a id="X7A4DD8CD7C42B2AA" name="X7A4DD8CD7C42B2AA"></a></p>
 
-<h5>7.2-2 AddMorphismToDoubleConegationWithGivenDoubleConegation</h5>
+<h5>7.2-4 AddMorphismToDoubleConegationWithGivenDoubleConegation</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismToDoubleConegationWithGivenDoubleConegation</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: nothing</p>
 
-<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismToDoubleConegationWithGivenDoubleConegation</code>. <span class="SimpleMath">\(F: ( a, s ) \mapsto \mathtt{MorphismToDoubleConegationWithGivenDoubleConegation}(a, s)\)</span>.</p>
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismToDoubleConegationWithGivenDoubleConegation</code>. <span class="SimpleMath">\(F: ( a, r ) \mapsto \mathtt{MorphismToDoubleConegationWithGivenDoubleConegation}(a, r)\)</span>.</p>
 
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap6_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap8_mj.html">[Next Chapter]</a>&nbsp;  </div>

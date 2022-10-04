@@ -15,8 +15,10 @@
   [2XAddIsEqualForObjectsIfIsHomSetInhabited[102X, for IsCapCategory, IsFunction 2.2-1 
   [2XAddMorphismFromDoubleConegation[102X, for IsCapCategory, IsFunction 5.3-4 
   [2XAddMorphismFromDoubleConegationWithGivenDoubleConegation[102X, for IsCapCategory, IsFunction 5.3-5 
-  [2XAddMorphismFromDoubleNegationWithGivenDoubleNegation[102X, for IsCapCategory, IsFunction 7.2-1 
-  [2XAddMorphismToDoubleConegationWithGivenDoubleConegation[102X, for IsCapCategory, IsFunction 7.2-2 
+  [2XAddMorphismFromDoubleNegation[102X, for IsCapCategory, IsFunction 7.2-1 
+  [2XAddMorphismFromDoubleNegationWithGivenDoubleNegation[102X, for IsCapCategory, IsFunction 7.2-2 
+  [2XAddMorphismToDoubleConegation[102X, for IsCapCategory, IsFunction 7.2-3 
+  [2XAddMorphismToDoubleConegationWithGivenDoubleConegation[102X, for IsCapCategory, IsFunction 7.2-4 
   [2XAddMorphismToDoubleNegation[102X, for IsCapCategory, IsFunction 4.3-1 
   [2XAddMorphismToDoubleNegationWithGivenDoubleNegation[102X, for IsCapCategory, IsFunction 4.3-2 
   [2XAddNegationOnMorphisms[102X, for IsCapCategory, IsFunction 4.3-3 
