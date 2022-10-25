@@ -115,6 +115,7 @@
   [2XMeetSemilatticeOfDifferences[102X, for IsCapCategory 8.1-1 
   [2XMeetSemilatticeOfMultipleDifferences[102X, for IsCapCategory 9.1-1 
   [2XMinimalLevelOfPreNodes[102X, for IsDatastructureForConstructibleObjects 11.3-2 
+  [2XMinuendAndSubtrahendInUnderlyingLattice[102X, for IsObjectInMeetSemilatticeOfSingleDifferences 8.2-1 
   [2XMorphismFromDoubleConegation[102X, for IsCapCategoryObject 5.1-4 
   [2XMorphismFromDoubleConegationWithGivenDoubleConegation[102X, for IsCapCategoryObject, IsCapCategoryObject 5.1-5 
   [2XMorphismFromDoubleNegation[102X, for IsCapCategoryObject 7.1-1 
@@ -130,7 +131,6 @@
   [2XNormalizedObject[102X, for IsConstructibleObject 10.3-5 
   [2XNormalizeObject[102X, for IsConstructibleObject 10.4-1 
       for IsObjectInMeetSemilatticeOfDifferences 13.4-1 
-  [2XPairInUnderlyingLattice[102X, for IsObjectInMeetSemilatticeOfSingleDifferences 8.2-1 
   [2XPop[102X, for IsDatastructureForConstructibleObjects 11.3-3 
   [2XPosetOfCategory[102X, for IsCapCategory 6.3-4 
   [2XProsetOfCategory[102X, for IsCapCategory 6.3-2 

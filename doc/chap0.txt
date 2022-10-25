@@ -7,10 +7,10 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2022.10-01
+                                   2022.10-02
   
   
-                                 6 October 2022
+                                25 October 2022
   
   
                                 Mohamed Barakat
@@ -158,7 +158,7 @@
       8.1-1 MeetSemilatticeOfDifferences
       8.1-2 \-
     8.2 [33X[0;0YOperations[133X
-      8.2-1 PairInUnderlyingLattice
+      8.2-1 MinuendAndSubtrahendInUnderlyingLattice
       8.2-2 DistinguishedSubtrahend
     8.3 [33X[0;0YGAP Categories[133X
       8.3-1 IsMeetSemilatticeOfSingleDifferences
