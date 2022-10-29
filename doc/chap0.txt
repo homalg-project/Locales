@@ -7,7 +7,7 @@
                   and Boolean algebras of constructible sets [101X
   
   
-                                   2022.10-09
+                                   2022.10-10
   
   
                                 29 October 2022
@@ -155,7 +155,7 @@
       7.2-4 AddMorphismToDoubleConegationWithGivenDoubleConegation
   8 [33X[0;0YMeet-semilattice of differences[133X
     8.1 [33X[0;0YConstructors[133X
-      8.1-1 MeetSemilatticeOfDifferences
+      8.1-1 MeetSemilatticeOfSingleDifferences
       8.1-2 \-
     8.2 [33X[0;0YOperations[133X
       8.2-1 MinuendAndSubtrahendInUnderlyingLattice
