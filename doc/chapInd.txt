@@ -3,8 +3,8 @@
   [1XIndex[101X
   
   [2X/[102X, for IsCapCategoryCell, IsProsetOrPosetOfCapCategory 6.3-10 
-  [2X\*[102X, for IsObjectInThinCategory, IsObjectInThinCategory 3.2-1 
-  [2X\+[102X, for IsObjectInThinCategory, IsObjectInThinCategory 3.2-2 
+  [2X\*[102X, for IsObjectInThinCategory, IsObjectInThinCategory 3.3-1 
+  [2X\+[102X, for IsObjectInThinCategory, IsObjectInThinCategory 3.3-2 
   [2X\-[102X, for IsObjectInThinCategory, IsObjectInThinCategory 8.1-2 
   [2X\[\][102X, for IsConstructibleObject, IsInt 10.4-4 
       for IsObjectInMeetSemilatticeOfMultipleDifferences, IsInt 9.3-2 
@@ -55,16 +55,21 @@
   [2XDistinguishedSubtrahend[102X, for IsObjectInMeetSemilatticeOfSingleDifferences 8.2-2 
   [2XFactorizeObject[102X, for IsConstructibleObject 10.3-4 
       for IsObjectInMeetSemilatticeOfDifferences 13.3-4 
-  [2XFactors[102X, for IsObjectInThinCategory 3.1-1 
-  [2XFactorsAttr[102X, for IsObjectInThinCategory 3.1-2 
+  [2XFactors[102X, for IsObjectInThinCategory 3.2-1 
+  [2XFactorsAttr[102X, for IsObjectInThinCategory 3.2-2 
   [2XForAllOp[102X, for IsConstructibleObject, IsFunction 10.4-6 
   [2XForAnyOp[102X, for IsConstructibleObject, IsFunction 10.4-7 
   [2XFormalDifferenceOfNormalizedObjects[102X, for IsObjectInThinCategory, IsObjectInThinCategory 8.1-2 
   [2XInfoLocales[102X 1.1-1 
   [2XInfoSquashDatastructureForConstructibleObjects[102X 11.1-1 
+  [2XIsBicartesianProset[102X, for IsCapCategory 3.1-5 
+  [2XIsBiHeytingAlgebra[102X, for IsCapCategory 7.3-2 
+  [2XIsBiHeytingAlgebroid[102X, for IsCapCategory 7.3-1 
+  [2XIsBooleanAlgebra[102X, for IsCapCategory 7.3-4 
   [2XIsBooleanAlgebraOfConstructibleObjects[102X, for IsCapCategory and IsThinCategory 10.5-1 
   [2XIsBooleanAlgebraOfConstructibleObjectsAsUnionOfMultipleDifferences[102X, for IsBooleanAlgebraOfConstructibleObjects 10.5-4 
   [2XIsBooleanAlgebraOfConstructibleObjectsAsUnionOfSingleDifferences[102X, for IsBooleanAlgebraOfConstructibleObjects 10.5-7 
+  [2XIsBooleanAlgebroid[102X, for IsCapCategory 7.3-3 
   [2XIsCapCategoryCellInPosetOfACategory[102X, for IsCapCategoryCellInProsetOrPosetOfACategory 6.5-12 
   [2XIsCapCategoryCellInProsetOfACategory[102X, for IsCapCategoryCellInProsetOrPosetOfACategory 6.5-8 
   [2XIsCapCategoryCellInProsetOrPosetOfACategory[102X, for IsCapCategoryCell 6.5-4 
@@ -74,20 +79,34 @@
   [2XIsCapCategoryObjectInPosetOfACategory[102X, for IsCapCategoryCellInPosetOfACategory and IsCapCategoryObjectInProsetOrPosetOfACategory 6.5-13 
   [2XIsCapCategoryObjectInProsetOfACategory[102X, for IsCapCategoryCellInProsetOfACategory and IsCapCategoryObjectInProsetOrPosetOfACategory 6.5-9 
   [2XIsCapCategoryObjectInProsetOrPosetOfACategory[102X, for IsCapCategoryCellInProsetOrPosetOfACategory and IsObjectInThinCategory 6.5-6 
+  [2XIsCartesianProset[102X, for IsCapCategory 3.1-1 
   [2XIsClosed[102X, for IsConstructibleObject 10.2-2 
       for IsObjectInMeetSemilatticeOfDifferences 13.2-1 
+  [2XIsClosedMonoidalLattice[102X, for IsCapCategory 3.1-10 
+  [2XIsCocartesianProset[102X, for IsCapCategory 3.1-3 
+  [2XIsCoclosedMonoidalLattice[102X, for IsCapCategory 3.1-11 
+  [2XIsCoHeytingAlgebra[102X, for IsCapCategory 5.4-2 
+  [2XIsCoHeytingAlgebroid[102X, for IsCapCategory 5.4-1 
   [2XIsConstructibleObject[102X, for IsObjectInThinCategory 10.5-2 
   [2XIsConstructibleObjectAsUnionOfMultipleDifferences[102X, for IsConstructibleObject 10.5-5 
   [2XIsConstructibleObjectAsUnionOfSingleDifferences[102X, for IsConstructibleObject 10.5-8 
   [2XIsDatastructureForConstructibleObjects[102X, for IsAttributeStoringRep 11.4-1 
+  [2XIsDistributiveBicartesianProset[102X, for IsCapCategory 3.1-7 
+  [2XIsDistributiveLattice[102X, for IsCapCategory 3.1-8 
   [2XIsDone[102X, for IsDatastructureForConstructibleObjects 11.3-1 
   [2XIsEqualForObjectsIfIsHomSetInhabited[102X, for IsCapCategoryObject, IsCapCategoryObject 2.1-1 
+  [2XIsHeytingAlgebra[102X, for IsCapCategory 4.4-2 
+  [2XIsHeytingAlgebroid[102X, for IsCapCategory 4.4-1 
   [2XIsHomSetInhabited[102X, for IsNodeInDatastructureOfConstructibleObjects, IsNodeInDatastructureOfConstructibleObjects 11.3-4 
+  [2XIsJoinSemiLattice[102X, for IsCapCategory 3.1-4 
+  [2XIsLattice[102X, for IsCapCategory 3.1-6 
   [2XIsLocallyClosed[102X, for IsConstructibleObject 10.2-3 
       for IsObjectInMeetSemilatticeOfDifferences 13.2-3 
+  [2XIsMeetSemiLattice[102X, for IsCapCategory 3.1-2 
   [2XIsMeetSemilatticeOfDifferences[102X, for IsCapCategory and IsThinCategory 13.1-1 
   [2XIsMeetSemilatticeOfMultipleDifferences[102X, for IsMeetSemilatticeOfDifferences 9.4-1 
   [2XIsMeetSemilatticeOfSingleDifferences[102X, for IsMeetSemilatticeOfDifferences 8.3-1 
+  [2XIsMonoidalLattice[102X, for IsCapCategory 3.1-9 
   [2XIsMorphismBetweenConstructibleObjects[102X, for IsMorphismInThinCategory 10.5-3 
   [2XIsMorphismBetweenConstructibleObjectsAsUnionOfDifferences[102X, for IsMorphismBetweenConstructibleObjects 10.5-9 
   [2XIsMorphismBetweenConstructibleObjectsAsUnionOfMultipleDifferences[102X, for IsMorphismBetweenConstructibleObjects 10.5-6 
@@ -102,9 +121,11 @@
   [2XIsObjectInThinCategory[102X, for IsCapCategoryObject 1.5-1 
   [2XIsOpen[102X, for IsConstructibleObject 10.2-1 
       for IsObjectInMeetSemilatticeOfDifferences 13.2-2 
+  [2XIsPosetCategory[102X, for IsCapCategory 2.3-1 
   [2XIsPosetOfCapCategory[102X, for IsProsetOrPosetOfCapCategory 6.5-11 
   [2XIsProsetOfCapCategory[102X, for IsProsetOrPosetOfCapCategory 6.5-7 
   [2XIsProsetOrPosetOfCapCategory[102X, for IsCapCategory 6.5-3 
+  [2XIsThinCategory[102X, for IsCapCategory 1.6-1 
   [2XIterator[102X, for IsConstructibleObject 10.4-5 
   [2XLength[102X, for IsConstructibleObject 10.4-3 
   [2XListOfObjectsInMeetSemilatticeOfDifferences[102X, for IsConstructibleObjectAsUnionOfMultipleDifferences 10.4-8 

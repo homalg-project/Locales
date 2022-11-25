@@ -107,3 +107,20 @@
   given  function [23XF[123X to the category for the basic operation [10XNegationOnObjects[110X.
   [23XF: ( arg2 ) \mapsto \mathtt{NegationOnObjects}(arg2)[123X.[133X
   
+  
+  [1X4.4 [33X[0;0YProperties[133X[101X
+  
+  [1X4.4-1 IsHeytingAlgebroid[101X
+  
+  [33X[1;0Y[29X[2XIsHeytingAlgebroid[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a Heyting algebroid.[133X
+  
+  [1X4.4-2 IsHeytingAlgebra[101X
+  
+  [33X[1;0Y[29X[2XIsHeytingAlgebra[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a Heyting algebra.[133X
+  

@@ -72,3 +72,13 @@
   [33X[0;0YProsets  are  thin  categories,  i.e., each Hom-set is either a singleton or
   empty.[133X
   
+  
+  [1X1.6 [33X[0;0YGAP Properties[133X[101X
+  
+  [1X1.6-1 IsThinCategory[101X
+  
+  [33X[1;0Y[29X[2XIsThinCategory[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a thin [5XCAP[105X category.[133X
+  

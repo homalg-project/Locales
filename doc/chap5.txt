@@ -109,3 +109,20 @@
   [10XMorphismFromDoubleConegationWithGivenDoubleConegation[110X.  [23XF:  ( a, s ) \mapsto
   \mathtt{MorphismFromDoubleConegationWithGivenDoubleConegation}(a, s)[123X.[133X
   
+  
+  [1X5.4 [33X[0;0YProperties[133X[101X
+  
+  [1X5.4-1 IsCoHeytingAlgebroid[101X
+  
+  [33X[1;0Y[29X[2XIsCoHeytingAlgebroid[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a co-Heyting algebroid.[133X
+  
+  [1X5.4-2 IsCoHeytingAlgebra[101X
+  
+  [33X[1;0Y[29X[2XIsCoHeytingAlgebra[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a co-Heyting algebra.[133X
+  

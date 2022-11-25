@@ -80,3 +80,34 @@
   [10XMorphismToDoubleConegationWithGivenDoubleConegation[110X.  [23XF:  (  a,  r ) \mapsto
   \mathtt{MorphismToDoubleConegationWithGivenDoubleConegation}(a, r)[123X.[133X
   
+  
+  [1X7.3 [33X[0;0YProperties[133X[101X
+  
+  [1X7.3-1 IsBiHeytingAlgebroid[101X
+  
+  [33X[1;0Y[29X[2XIsBiHeytingAlgebroid[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a bi-Heyting algebroid.[133X
+  
+  [1X7.3-2 IsBiHeytingAlgebra[101X
+  
+  [33X[1;0Y[29X[2XIsBiHeytingAlgebra[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a bi-Heyting algebra.[133X
+  
+  [1X7.3-3 IsBooleanAlgebroid[101X
+  
+  [33X[1;0Y[29X[2XIsBooleanAlgebroid[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a Boolean algebroid.[133X
+  
+  [1X7.3-4 IsBooleanAlgebra[101X
+  
+  [33X[1;0Y[29X[2XIsBooleanAlgebra[102X( [3XC[103X ) [32X property[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe property of [3XC[103X being a Boolean algebra.[133X
+  
